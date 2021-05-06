@@ -1510,20 +1510,6 @@ and to select the best performing model.
 </p>
 
 <h5 class='subsubsectionHead'><span class='titlemark'>3.6.1.2 </span> <a id='x1-530003.6.1.2'></a>Global Evaluation</h5>
-<figure class='figure'>
-
-
-
-
-
-<p><img alt='PIC' width='100%' src='figures/global.png'> <a id='x1-53004r8'></a>
-<a id='x1-53005'></a>
-</p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 3.8:: </span></span><span class='content'><span class='cmr-10'>The process of global evaluation.</span>                                                                    
-</span></figcaption><!-- tex4ht:label?: x1-53004r3.6  -->
-
-
-</figure>
 <p>Global evaluation starts by randomly generating ten timestamps for the cases and deaths forecasting
 respectively: the ten timestamps should cover different stages of each data after the first lockdown (the
 data during the first lockdown will be used as the minimum length of training data). These ten
@@ -1549,8 +1535,17 @@ evaluation is shown in Figure <a href='#x1-53004r8'>3.8<!-- tex4ht:ref: fig:glob
                                </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>APMAE</mi> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><munderover accentunder='false' accent='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>t</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mn>10</mn></mrow></munderover><mi mathvariant='italic'>PMAE</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow>
          <mrow><mn>10</mn></mrow></mfrac>           </mtd>                               <mtd class='align-even'><mspace width='2em'></mspace></mtd>                               <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-53003r16'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.16)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
-  </mtd></mtr></mtable></math><br>
+  </mtd></mtr></mtable></math>
 
+<hr style="height:0.5em; visibility:hidden;">
+
+<figure class='figure'>
+<p><img alt='PIC' width='100%' src='figures/global.png'> <a id='x1-53004r8'></a>
+<a id='x1-53005'></a>
+</p>
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 3.8:: </span></span><span class='content'><span class='cmr-10'>The process of global evaluation.</span>                                                                    
+</span></figcaption><!-- tex4ht:label?: x1-53004r3.6  -->
+</figure>
 
 <p>Due to the stochastic nature of the LSTM model and the usage of dropout layers, there is a range of
 random variance in the model output each time. To address this issue, the above process will be repeated
