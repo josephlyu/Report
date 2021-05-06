@@ -207,7 +207,7 @@ span.sout {text-decoration: line-through }
 span.xout {text-decoration: line-through }
 span.uwave {text-decoration:underline }
 .MathJax_MathML {text-indent: 0;}
-body { font-family: "Times New Roman", Georgia, Minion Pro, Baskerville, Garamond, EB Garamond, serif; font-size: 16px; line-height: 1.5; max-width: 42em; margin: auto;}
+body { font-family: "Times New Roman", Georgia, Minion Pro, Baskerville, Garamond, EB Garamond, serif; font-size: 16px; line-height: 1.5; max-width: 41em; margin: auto;}
 .titleHead, .sectionHead, .subsectionHead, .textsf { font-family: "Times New Roman", Georgia, Myriad Pro, Helvetica, Arial, sans-serif; }
 .titleHead, .sectionHead, .subsectionHead { color: Black; }
 .texttt, .verb, .pre { font-family: Inconsolata, Consolas, Courier, monospace; }
