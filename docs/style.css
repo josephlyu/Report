@@ -231,5 +231,5 @@ image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ im
   .sectionHead { font-size: 18px; }
   .subsectionHead { font-size: 14px; }
   .subsubsectionHead { font-size: 10px; }
-  .tabular { font-size: 1px; }
+  .tabular { font-size: 8px; }
 }
