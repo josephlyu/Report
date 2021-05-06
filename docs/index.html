@@ -1947,24 +1947,10 @@ between having historical cases data and R0 as a feature of the deaths forecasti
 forecasting with ARIMA model, where the ten timestamps are consistent to the ones used in the global
 evaluation in Experiment <a href='#x1-630004.2.1.3'>4.2.1.3<!-- tex4ht:ref: sub:exper  --></a>.
 </p>
-<p>From the results, we can tell that:
-</p>
-<p>
-</p>
-<ol class='enumerate1'>
-<li id='x1-65002x1' class='enumerate'>Most d values for cases forecasting are one, which is consistent with the differencing order
-used in the LSTM model for data pre-processing.
-</li>
-<li id='x1-65004x2' class='enumerate'>The p, d, q values for cases forecasting are more stable then the values for deaths forecasting.
-</li>
-<li id='x1-65006x3' class='enumerate'>The p and q values for deaths forecasting tend to be larger then the values for cases forecasting.</li></ol>
+
 <div class='table'>
-
-
 <p></p>
 <figure class='float'>
-
-
 <div class='tabular'><table cellpadding='0' cellspacing='0' class='tabular' id='TBL-41' rules='groups'><colgroup id='TBL-41-1g'><col id='TBL-41-1'></colgroup><colgroup id='TBL-41-2g'><col id='TBL-41-2'></colgroup><colgroup id='TBL-41-3g'><col id='TBL-41-3'></colgroup><tr class='hline'><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-41-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-41-1-1' style='text-align:center; white-space:nowrap;'>                                    ARIMA(p,d,q)                                                        </td><td class='td11' id='TBL-41-1-2' style='text-align:center; white-space:nowrap;'> Cases  </td><td class='td11' id='TBL-41-1-3' style='text-align:center; white-space:nowrap;'> Deaths  </td>
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-041-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-041-4-1' style='text-align:center; white-space:nowrap;'>                                    Timestamp #1                                                        </td><td class='td11' id='TBL-041-4-2' style='text-align:center; white-space:nowrap;'> (1,1,1)  </td><td class='td11' id='TBL-041-4-3' style='text-align:center; white-space:nowrap;'> (2,2,1)  </td>
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0041-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-0041-7-1' style='text-align:center; white-space:nowrap;'>                                    Timestamp #2                                                        </td><td class='td11' id='TBL-0041-7-2' style='text-align:center; white-space:nowrap;'> (1,1,1)  </td><td class='td11' id='TBL-0041-7-3' style='text-align:center; white-space:nowrap;'> (2,2,1)  </td>
@@ -1980,10 +1966,21 @@ used in the LSTM model for data pre-processing.
 <a id='x1-65008'></a>
 <figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Table 4.2:: </span></span><span class='content'><span class='cmr-10'>(ARIMA) Grid search results for (p,d,q) values.</span>                                                  
 </span></figcaption><!-- tex4ht:label?: x1-65007r4.2  -->
-
-
 </figure>
 </div>
+
+<p>From the results, we can tell that:
+</p>
+<p>
+</p>
+<ol class='enumerate1'>
+<li id='x1-65002x1' class='enumerate'>Most d values for cases forecasting are one, which is consistent with the differencing order
+used in the LSTM model for data pre-processing.
+</li>
+<li id='x1-65004x2' class='enumerate'>The p, d, q values for cases forecasting are more stable then the values for deaths forecasting.
+</li>
+<li id='x1-65006x3' class='enumerate'>The p and q values for deaths forecasting tend to be larger then the values for cases forecasting.</li></ol>
+
 <h3 class='sectionHead'><span class='titlemark'>4.3 </span> <a id='x1-660004.3'></a>Visualisation</h3>
 <p>The visualisation was based on Plotly[<a id='page.109'></a><a href='main.html#X0-noauthor_plotly_nodate'>36</a>]. Figure (<a href='#x1-66001r6'>4.6<!-- tex4ht:ref: fig:uk  --></a>)-(<a href='#x1-66005r8'>4.8<!-- tex4ht:ref: fig:map  --></a>) contain screenshots of some charts developed
 with the visualisation strategies described in Section <a href='#x1-340003.4'>3.4<!-- tex4ht:ref: sec:visualisation  --></a>.
