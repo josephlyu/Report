@@ -9,7 +9,7 @@
 <meta property="og:image" content="https://report.shangjielyu.com/og_img.png">
 <meta property="og:url" content="https://report.shangjielyu.com/">
 <link href='style.css' type='text/css' rel='stylesheet'>
-<script type='text/x-mathjax-config'> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"] } }); </script> <script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<script type='text/x-mathjax-config'> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX", "output/HTML-CSS"], tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true }, "HTML-CSS": { availableFonts: ["TeX"] } }); </script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <script>window.addEventListener("contextmenu", e => e.preventDefault());</script>
 </head><body ondragstart="return false">
@@ -687,14 +687,14 @@ non-stationarity of the mean. The process of first order differencing is shown i
 <p>The AR part of the model indicates that the data to be predicted is regressed on its own lagged
 values, and the MA part of the model shows that the regression error is a linear combination
 of error terms whose values occurred simultaneously at different times in the past[<a id='page.33'></a><a href='main.html#X0-box_time_2015'>19</a>]. An
-<!-- l. 279 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi mathvariant='italic'>ARIMA</mi> <mo form='prefix' fence='true'> (</mo><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi> </mrow> </msup> <mo class='MathClass-punc'>,</mo> <mi>q</mi></mrow><mo form='postfix' fence='true'>)</mo></math> model
+<!-- l. 279 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mi mathvariant='italic'>ARIMA</mi> <mo form='prefix' fence='true'> (</mo><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi> </mrow> </msup> <mo class='MathClass-punc'>,</mo> <mi>q</mi></mrow><mo form='postfix' fence='true'>)</mo></math> model
 is represented mathematically in Equation <a href='#x1-13002r2'>2.2<!-- tex4ht:ref: eq:arma  --></a>.
 </p><br>
 <p>
 
 
 </p>
-<!-- tex4ht:inline --><!-- l. 284 --><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 284 --><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
                            <mtr><mtd class='align-odd' columnalign='right'><msubsup><mrow><mi>y</mi></mrow><mrow><mi>t</mi></mrow><mrow><mi>′</mi></mrow></msubsup> <mo class='MathClass-rel'>=</mo> <msub><mrow><mi>y</mi></mrow><mrow>
 <mi>t</mi></mrow></msub> <mo class='MathClass-bin'>−</mo> <msub><mrow><mi>y</mi></mrow><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub></mtd>                                                    <mtd class='align-even'><mspace width='2em'></mspace></mtd>                           <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-13001r1'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.1)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                            </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'> <mo form='prefix' fence='true'> (</mo><mrow><mn>1</mn> <mo class='MathClass-bin'>−</mo><munderover accentunder='false' accent='false'><mrow><mo>∑</mo>
@@ -705,13 +705,13 @@ is represented mathematically in Equation <a href='#x1-13002r2'>2.2<!-- tex4ht:r
 <mi>i</mi></mrow></msub><msup><mrow><mi>L</mi></mrow><mrow><mi>i</mi></mrow></msup></mrow><mo form='postfix' fence='true'>)</mo> <msub><mrow><mi>𝜀</mi></mrow><mrow>
 <mi>t</mi></mrow></msub></mtd>                           <mtd class='align-even'><mspace width='2em'></mspace></mtd>                           <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-13002r2'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.2)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
   </mtd></mtr></mtable></math>
-<br><p>Where, <!-- l. 286 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>X</mi></mrow><mrow><mi>t</mi></mrow></msub></math> and
-<!-- l. 286 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>t</mi></math> represent the time series
-data and its time index; <!-- l. 286 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>L</mi></math>
-represents the lag operator; <!-- l. 286 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>a</mi></mrow><mrow><mi>i</mi></mrow></msub></math>
-and <!-- l. 286 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>𝜃</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math>
+<br><p>Where, <!-- l. 286 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>X</mi></mrow><mrow><mi>t</mi></mrow></msub></math> and
+<!-- l. 286 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mi>t</mi></math> represent the time series
+data and its time index; <!-- l. 286 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mi>L</mi></math>
+represents the lag operator; <!-- l. 286 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>a</mi></mrow><mrow><mi>i</mi></mrow></msub></math>
+and <!-- l. 286 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>𝜃</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math>
 represent the parameters of the autoregressive and moving average part of the model respectively;
-<!-- l. 286 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>𝜀</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>
+<!-- l. 286 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>𝜀</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>
 represents the error terms.
 </p>
 <p>
@@ -756,7 +756,7 @@ passed on to the next hidden state. The process is represented mathematically in
 </p>
 <p>
 </p>
-<!-- tex4ht:inline --><!-- l. 309 --><br><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 309 --><br><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
                                 <mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>f</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mi>σ</mi> <mo form='prefix' fence='true'> (</mo><mrow><msub><mrow><mi>w</mi></mrow><mrow><mi>f</mi></mrow></msub> <mo form='prefix' fence='true'> [</mo><mrow><msub><mrow><mi>h</mi></mrow><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><msub><mrow><mi>x</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo form='postfix' fence='true'>]</mo> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>b</mi></mrow><mrow><mi>f</mi></mrow></msub></mrow><mo form='postfix' fence='true'>)</mo></mtd>                                    <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-14003r3'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.3)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                                 </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>i</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mi>σ</mi> <mo form='prefix' fence='true'> (</mo><mrow><msub><mrow><mi>w</mi></mrow><mrow><mi>i</mi></mrow></msub> <mo form='prefix' fence='true'> [</mo><mrow><msub><mrow><mi>h</mi></mrow><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><msub><mrow><mi>x</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo form='postfix' fence='true'>]</mo> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow><mo form='postfix' fence='true'>)</mo></mtd>                                     <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-14004r4'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.4)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                                 </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>o</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <mi>σ</mi> <mo form='prefix' fence='true'> (</mo><mrow><msub><mrow><mi>w</mi></mrow><mrow><mi>o</mi></mrow></msub> <mo form='prefix' fence='true'> [</mo><mrow><msub><mrow><mi>h</mi></mrow><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub><mo class='MathClass-punc'>,</mo><msub><mrow><mi>x</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo form='postfix' fence='true'>]</mo> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>b</mi></mrow><mrow><mi>o</mi></mrow></msub></mrow><mo form='postfix' fence='true'>)</mo></mtd>                                    <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-14005r5'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.5)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
@@ -764,24 +764,24 @@ passed on to the next hidden state. The process is represented mathematically in
                                 </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <msub><mrow><mi>f</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-bin'>∗</mo> <msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow></msub> <mo class='MathClass-bin'>+</mo> <msub><mrow><mi>i</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-bin'>∗</mo><mover accent='false'><mrow><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo accent='true'>̃</mo></mover></mtd>                                    <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-14007r7'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.7)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                                 </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><msub><mrow><mi>h</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-rel'>=</mo> <msub><mrow><mi>o</mi></mrow><mrow><mi>t</mi></mrow></msub> <mo class='MathClass-bin'>∗</mo> <mi mathvariant='italic'>tanh</mi> <mo form='prefix' fence='true'> (</mo><mrow><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo form='postfix' fence='true'>)</mo></mtd>                                          <mtd class='align-even'><mspace width='2em'></mspace></mtd>                                <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-14008r8'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(2.8)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
   </mtd></mtr></mtable></math>
-<br><p>Where, <!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>f</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>i</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>o</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math> represent forget gate, input
-gate, output gate at time t; <!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi>σ</mi></math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mi mathvariant='italic'>tanh</mi></math> represent sigmoid
-and tanh function; <!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>w</mi></mrow><mrow><mi>f</mi></mrow></msub></math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>w</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>w</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math> and
+<br><p>Where, <!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>f</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>i</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>o</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math> represent forget gate, input
+gate, output gate at time t; <!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mi>σ</mi></math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mi mathvariant='italic'>tanh</mi></math> represent sigmoid
+and tanh function; <!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>w</mi></mrow><mrow><mi>f</mi></mrow></msub></math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>w</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>w</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math> and
 
 
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>b</mi></mrow><mrow><mi>f</mi> </mrow> </msub> </math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math> refer to the wights and
-biases respectively; <!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mover accent='false'><mrow><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo accent='true'>̃</mo></mover></math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>,
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><msub><mrow><mi>h</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>b</mi></mrow><mrow><mi>f</mi> </mrow> </msub> </math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>b</mi></mrow><mrow><mi>i</mi> </mrow> </msub> </math> refer to the wights and
+biases respectively; <!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mover accent='false'><mrow><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi></mrow></msub></mrow><mo accent='true'>̃</mo></mover></math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>c</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>,
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><msub><mrow><mi>h</mi></mrow><mrow><mi>t</mi> </mrow> </msub> </math>
 represent candidate cell state, cell state and output hidden state at time t;
-<!-- l. 311 --><math display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mo class='MathClass-bin'>∗</mo></math> donates
+<!-- l. 311 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mo class='MathClass-bin'>∗</mo></math> donates
 element wise multiplication of vectors.
 
 
@@ -915,14 +915,14 @@ the current time step, as shown in Equation <a href='#x1-18003r1'>3.1<!-- tex4ht
 <table class='equation'><tr><td><a id='x1-18003r1'></a>
 
 
-<!-- l. 380 --><br><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 380 --><br><math display='block' class='equation' xmlns='https://www.w3.org/1998/Math/MathML'>
                         <mi mathvariant='italic'>Differenced</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>Original</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>Original</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow><mo form='postfix' fence='true'>)</mo>
 </math></td><td class='eq-no'>(3.1)</td></tr></table>
 </li>
 <li id='x1-18005x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Scaling</span></strong>: The scale of the data will be normalised to a range of 0 to 1, which is the range of LSTM’s
 activation function. Equation <a href='#x1-18006r2'>3.2<!-- tex4ht:ref: eq:scaling  --></a> shows the normalisation process.</li></ol>
 <table class='equation'><tr><td><a id='x1-18006r2'></a>
-<!-- l. 387 --><br><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 387 --><br><math display='block' class='equation' xmlns='https://www.w3.org/1998/Math/MathML'>
                          <mi mathvariant='italic'>Scaled</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-rel'>=</mo>   <mfrac><mrow><mi mathvariant='italic'>Original</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>max</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>Original</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow>
 <mrow><mi mathvariant='italic'>max</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>Original</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>min</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>Original</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow></mfrac>
 </math></td><td class='eq-no'>(3.2)</td></tr></table>
@@ -1021,7 +1021,7 @@ function and is the sum of the squared distances between the actual values and t
 shown in Equation <a href='#x1-24001r3'>3.3<!-- tex4ht:ref: eq:mse  --></a>.
 </p>
 <table class='equation'><tr><td><a id='x1-24001r3'></a>
-<!-- l. 433 --><br><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 433 --><br><math display='block' class='equation' xmlns='https://www.w3.org/1998/Math/MathML'>
                           <mi mathvariant='italic'>MSE</mi> <mo class='MathClass-rel'>=</mo><munderover accentunder='false' accent='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>t</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover><mfrac><mrow><msup><mrow> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>Actual</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>Predicted</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow><mo form='postfix' fence='true'>)</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow>
                     <mrow><mi>n</mi></mrow></mfrac>
@@ -1084,7 +1084,7 @@ and lower bounds of prediction uncertainty.</li></ol>
 </p>
 <p>
 </p>
-<!-- tex4ht:inline --><!-- l. 464 --><br><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 464 --><br><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
                         <mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>Model</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Prediction</mi> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>mean</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>Predictions</mi></mrow><mo form='postfix' fence='true'>)</mo></mtd>                             <mtd class='align-even'><mspace width='2em'></mspace></mtd>                        <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-27007r4'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.4)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                         </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>Lower</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Bound</mi> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>percentile</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi mathvariant='italic'>Predictions</mi><mo class='MathClass-punc'>,</mo><mspace class='nbsp' width='0.33em'></mspace><mn>2</mn><mo class='MathClass-punc'>.</mo><mn>5</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd>                        <mtd class='align-even'><mspace width='2em'></mspace></mtd>                        <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-27008r5'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.5)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                         </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>Upper</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Bound</mi> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>percentile</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mi mathvariant='italic'>Predictions</mi><mo class='MathClass-punc'>,</mo><mspace class='nbsp' width='0.33em'></mspace><mn>97</mn><mo class='MathClass-punc'>.</mo><mn>5</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mtd>                        <mtd class='align-even'><mspace width='2em'></mspace></mtd>                        <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-27009r6'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.6)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
@@ -1170,7 +1170,7 @@ in the process shown in Equation (<a href='#x1-32001r7'>3.7<!-- tex4ht:ref: eq:p
 </p>
 <p>
 </p>
-<!-- tex4ht:inline --><!-- l. 501 --><br><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 501 --><br><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
          <mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>Ensemble</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Prediction</mi> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><mi mathvariant='italic'>LSTM</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Prediction</mi><mspace class='nbsp' width='0.33em'></mspace> <mo class='MathClass-bin'>+</mo> <mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>ARIMA</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Prediction</mi></mrow>
                       <mrow><mn>2</mn></mrow></mfrac>                          </mtd>                <mtd class='align-even'><mspace width='2em'></mspace></mtd>         <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-32001r7'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.7)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
          </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>Ensemble</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Lower</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Bound</mi> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><mi mathvariant='italic'>LSTM</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Lower</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Bound</mi> <mo class='MathClass-bin'>+</mo> <mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>ARIMA</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Lower</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Bound</mi></mrow>
@@ -1191,7 +1191,7 @@ performed prediction cleansing by converting all negative predictions to zero, a
 
 </p>
 <table class='equation'><tr><td><a id='x1-33001r10'></a>
-<!-- l. 506 --><br><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 506 --><br><math display='block' class='equation' xmlns='https://www.w3.org/1998/Math/MathML'>
 <mi mathvariant='italic'>Prediction</mi> <mo class='MathClass-rel'>=</mo>  <mo form='prefix' fence='true'> {</mo><mrow> <mtable columnlines='none' equalcolumns='false' align='axis' equalrows='false' class='array' style=''> <mtr><mtd class='array' columnalign='left'><mi mathvariant='italic'>Prediction</mi><mo class='MathClass-punc'>,</mo><mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>if </mtext></mstyle><mi mathvariant='italic'>Prediction</mi> <mo class='MathClass-rel'>≥</mo> <mn>0</mn></mtd></mtr>  <mtr><mtd class='array' columnalign='left'> <mspace class='quad' width='1em'></mspace> </mtd></mtr>  <mtr><mtd class='array' columnalign='left'> <mspace class='quad' width='1em'></mspace> </mtd>
 </mtr>  <mtr><mtd class='array' columnalign='left'><mn>0</mn><mo class='MathClass-punc'>,</mo>           <mspace class='quad' width='1em'></mspace></mtd><mtd class='array' columnalign='left'><mstyle class='text'><mtext>otherwise</mtext></mstyle>          </mtd></mtr>
    <!-- @{}l@{\quad }l@{} --></mtable>                                                                                                                               </mrow><mo form='postfix' fence='true'></mo>
@@ -1487,7 +1487,7 @@ daily model predictions over the training and prediction period. The calculation
 Equation <a href='#x1-52011r13'>3.13<!-- tex4ht:ref: eq:pmae  --></a>.</li></ol>
 <p>
 </p>
-<!-- tex4ht:inline --><!-- l. 646 --><br><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 646 --><br><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
                          <mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>MAE</mi> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><munderover accentunder='false' accent='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>t</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mi>n</mi></mrow></munderover> <mo form='prefix' fence='true'> |</mo><mrow><mi mathvariant='italic'>Predicted</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>Actual</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow><mo form='postfix' fence='true'>|</mo></mrow>
                  <mrow><mi>n</mi></mrow></mfrac>                 </mtd>                             <mtd class='align-even'><mspace width='2em'></mspace></mtd>                         <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-52009r11'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.11)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
@@ -1539,7 +1539,7 @@ evaluation is shown in Figure <a href='#x1-53004r8'>3.8<!-- tex4ht:ref: fig:glob
 </p>
 <p>
 </p>
-<!-- tex4ht:inline --><!-- l. 661 --><br><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 661 --><br><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
                                <mtr><mtd class='align-odd' columnalign='right'><mi mathvariant='italic'>AMAE</mi> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><munderover accentunder='false' accent='false'><mrow><mo>∑</mo>
   </mrow><mrow><mi>t</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mn>10</mn></mrow></munderover><mi mathvariant='italic'>MAE</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow>
         <mrow><mn>10</mn></mrow></mfrac>         </mtd>                                   <mtd class='align-even'><mspace width='2em'></mspace></mtd>                               <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-53001r14'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(3.14)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
@@ -1571,7 +1571,7 @@ described in Section <a href='#x1-530003.6.1.2'>3.6.1.2<!-- tex4ht:ref: sub:glob
 shown in Equation <a href='#x1-54001r17'>3.17<!-- tex4ht:ref: eq:cf  --></a>.
 </p>
 <table class='equation'><tr><td><a id='x1-54001r17'></a>
-<!-- l. 677 --><br><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 677 --><br><math display='block' class='equation' xmlns='https://www.w3.org/1998/Math/MathML'>
                          <mi mathvariant='italic'>CF</mi> <mo class='MathClass-rel'>=</mo> <mfrac><mrow><mi mathvariant='italic'>AMAE</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>reference</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mi mathvariant='italic'>AMAE</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>target</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow>
           <mrow><mi mathvariant='italic'>AMAE</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>reference</mi></mrow><mo form='postfix' fence='true'>)</mo></mrow></mfrac>
 </math></td><td class='eq-no'>(3.17)</td></tr></table>
@@ -1594,7 +1594,7 @@ This model takes the last observed input data as its predicted value, as shown i
 <a href='#x1-55001r18'>3.18<!-- tex4ht:ref: eq:base  --></a>.
 </p>
 <table class='equation'><tr><td><a id='x1-55001r18'></a>
-<!-- l. 688 --><br><math display='block' class='equation' xmlns='http://www.w3.org/1998/Math/MathML'>
+<!-- l. 688 --><br><math display='block' class='equation' xmlns='https://www.w3.org/1998/Math/MathML'>
                                <mi mathvariant='italic'>Predicted</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi>t</mi></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-rel'>=</mo> <mi mathvariant='italic'>Input</mi><mspace class='nbsp' width='0.33em'></mspace><mi mathvariant='italic'>Data</mi> <mo form='prefix' fence='true'> [</mo><mrow><mo class='MathClass-bin'>−</mo><mn>1</mn></mrow><mo form='postfix' fence='true'>]</mo>
 </math></td><td class='eq-no'>(3.18)</td></tr></table>
 <br><p>The baseline model is used during the deployment phase.
@@ -2423,7 +2423,7 @@ calculated as shown in Equation (<a href='#x1-78003r1'>5.1<!-- tex4ht:ref: eq:su
 </p>
 <p>
 </p>
-<!-- tex4ht:inline --><!-- l. 1060 --><br><math display='block' xmlns='http://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
+<!-- tex4ht:inline --><!-- l. 1060 --><br><math display='block' xmlns='https://www.w3.org/1998/Math/MathML'><mtable class='align' columnalign='left'>
                           <mtr><mtd class='align-odd' columnalign='right'><mi>X</mi> <mo class='MathClass-rel'>=</mo><munderover accentunder='false' accent='false'><mrow><mo> ∑</mo>
   </mrow><mrow><mi>i</mi><mo class='MathClass-rel'>=</mo><mn>1</mn></mrow><mrow><mn>5</mn></mrow></munderover><mi mathvariant='italic'>Points</mi> <mo form='prefix' fence='true'> (</mo><mrow><mi mathvariant='italic'>Question</mi><mrow><mo class='MathClass-open'>(</mo><mrow><mn>2</mn> <mo class='MathClass-bin'>∗</mo> <mi>i</mi> <mo class='MathClass-bin'>−</mo> <mn>1</mn></mrow><mo class='MathClass-close'>)</mo></mrow></mrow><mo form='postfix' fence='true'>)</mo> <mo class='MathClass-bin'>−</mo> <mn>5</mn></mtd>                          <mtd class='align-even'><mspace width='2em'></mspace></mtd>                          <mtd class='align-label' columnalign='right'><mstyle class='label' id='x1-78003r1'></mstyle><!-- endlabel --><mstyle class='maketag'><mtext>(5.1)</mtext></mstyle><mspace class='nbsp' width='0.33em'></mspace>
                           </mtd></mtr><mtr><mtd class='align-odd' columnalign='right'><mi>Y</mi> <mo class='MathClass-rel'>=</mo> <mn>25</mn> <mo class='MathClass-bin'>−</mo><munderover accentunder='false' accent='false'><mrow><mo>∑</mo>
@@ -2485,7 +2485,7 @@ trends in COVID-19 cases and death growth rates in different countries worldwide
 </li>
 <li id='x1-80008x4' class='enumerate'>The integration of above contents in a dashboard which performed very well both in presenting
 information and having good usability, with a SUS score of 84.9. The dashboard is deployed
-on AWS and is publicly accessible at: <a href='http://covid-19.shangjielyu.com/' class='url'><span class='cmtt-10x-x-109'>http://covid-19.shangjielyu.com/</span></a></li></ol>
+on AWS and is publicly accessible at: <a href='https://covid-19.shangjielyu.com/' class='url'><span class='cmtt-10x-x-109'>https://covid-19.shangjielyu.com/</span></a></li></ol>
 <p>
 </p>
 
@@ -2644,7 +2644,7 @@ disease dynamics”, en, <span class='cmti-10x-x-109'>Nature Methods</span>, vol
 </dd><dt class='thebibliography' id='X0-noauthor_health_2020'>
 [3]</dt><dd class='thebibliography' id='bib-3'>
 <p style="text-indent:0;"><span class='cmti-10x-x-109'>Health experts criticise UK’s failure to track recovered Covid-19 cases</span>, en, Section: World news,
-Jun. 2020. [Online]. Available: <a href='http://www.theguardian.com/world/2020/jun/18/health-experts-criticise-uk-failure-track-recovered-covid-19-cases' class='url'><span class='cmtt-10x-x-109'>http://www.theguardian.com/world/2020/jun/18/health-experts-criticise-uk-failure-track-recovered-covid-19-cases</span></a>
+Jun. 2020. [Online]. Available: <a href='https://www.theguardian.com/world/2020/jun/18/health-experts-criticise-uk-failure-track-recovered-covid-19-cases' class='url'><span class='cmtt-10x-x-109'>https://www.theguardian.com/world/2020/jun/18/health-experts-criticise-uk-failure-track-recovered-covid-19-cases</span></a>
 (visited on 04/28/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-maleki_time_2020'>
@@ -2690,7 +2690,7 @@ ARIMA Models”, en, p. 16,
 [9]</dt><dd class='thebibliography' id='bib-9'>
 <p style="text-indent:0;">N. Yudistira, “COVID-19 growth prediction using multivariate long short term memory”,
 <span class='cmti-10x-x-109'>arXiv:2005.04809  [cs,  stat]</span>,  May  2020,  arXiv:  2005.04809  version:  2.  [Online].  Available:
-<a href='http://arxiv.org/abs/2005.04809' class='url'><span class='cmtt-10x-x-109'>http://arxiv.org/abs/2005.04809</span></a> (visited on 04/28/2021).
+<a href='https://arxiv.org/abs/2005.04809' class='url'><span class='cmtt-10x-x-109'>https://arxiv.org/abs/2005.04809</span></a> (visited on 04/28/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-chandra_deep_2021'>
 [10]</dt><dd class='thebibliography' id='bib-10'>
@@ -2698,13 +2698,13 @@ ARIMA Models”, en, p. 16,
 
 <p style="text-indent:0;">R. Chandra, A. Jain, and D. S. Chauhan, “Deep learning via LSTM models for COVID-19
 infection  forecasting  in  India”,  <span class='cmti-10x-x-109'>arXiv:2101.11881 [cs, stat]</span>,  Jan.  2021,  arXiv:  2101.11881
-version: 1. [Online]. Available: <a href='http://arxiv.org/abs/2101.11881' class='url'><span class='cmtt-10x-x-109'>http://arxiv.org/abs/2101.11881</span></a> (visited on 04/24/2021).
+version: 1. [Online]. Available: <a href='https://arxiv.org/abs/2101.11881' class='url'><span class='cmtt-10x-x-109'>https://arxiv.org/abs/2101.11881</span></a> (visited on 04/24/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-said_predicting_2020'>
 [11]</dt><dd class='thebibliography' id='bib-11'>
 <p style="text-indent:0;">A. B. Said,  A.  Erradi,  H.  Aly,  and  A.  Mohamed,  “Predicting  COVID-19  cases  using
 Bidirectional LSTM on multivariate time series”, <span class='cmti-10x-x-109'>arXiv:2009.12325 [cs]</span>, Sep. 2020, arXiv:
-2009.12325 version: 1. [Online]. Available: <a href='http://arxiv.org/abs/2009.12325' class='url'><span class='cmtt-10x-x-109'>http://arxiv.org/abs/2009.12325</span></a> (visited on
+2009.12325 version: 1. [Online]. Available: <a href='https://arxiv.org/abs/2009.12325' class='url'><span class='cmtt-10x-x-109'>https://arxiv.org/abs/2009.12325</span></a> (visited on
 04/28/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-noauthor_official_nodate'>
@@ -2840,7 +2840,7 @@ Cambridge, Massachusetts: The MIT Press, Nov. 2016, <span class='cmcsc-10x-x-109
 <p style="text-indent:0;">N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, and R. Salakhutdinov, “Dropout: A
 Simple Way to Prevent Neural Networks from Overfitting”, <span class='cmti-10x-x-109'>Journal of Machine Learning
 </span><span class='cmti-10x-x-109'>Research</span>,  vol.  15,  no.  56,  pp.  1929–1958,  2014,  <span class='cmcsc-10x-x-109'><span class='small-caps'>issn</span></span>:  1533-7928.  [Online].  Available:
-<a href='http://jmlr.org/papers/v15/srivastava14a.html' class='url'><span class='cmtt-10x-x-109'>http://jmlr.org/papers/v15/srivastava14a.html</span></a> (visited on 04/26/2021).
+<a href='https://jmlr.org/papers/v15/srivastava14a.html' class='url'><span class='cmtt-10x-x-109'>https://jmlr.org/papers/v15/srivastava14a.html</span></a> (visited on 04/26/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-mushtaq_augmented_2011'>
 [32]</dt><dd class='thebibliography' id='bib-32'>
@@ -2868,7 +2868,7 @@ on 04/27/2021).
 </dd><dt class='thebibliography' id='X0-smith_pmdarima_2017'>
 [35]</dt><dd class='thebibliography' id='bib-35'>
 <p style="text-indent:0;">T. G. Smith and others <span class='cmti-10x-x-109'>Pmdarima: ARIMA estimators for Python</span>, 2017. [Online]. Available:
-<a href='http://alkaline-ml.com/pmdarima/' class='url'><span class='cmtt-10x-x-109'>http://alkaline-ml.com/pmdarima/</span></a> (visited on 04/26/2021).
+<a href='https://alkaline-ml.com/pmdarima/' class='url'><span class='cmtt-10x-x-109'>https://alkaline-ml.com/pmdarima/</span></a> (visited on 04/26/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-noauthor_plotly_nodate'>
 [36]</dt><dd class='thebibliography' id='bib-36'>
@@ -2976,13 +2976,13 @@ Available: <a href='https://scikit-learn.org/stable/' class='url'><span class='c
 </p><br>
 </dd><dt class='thebibliography' id='X0-noauthor_prophet_nodate'>
 [55]</dt><dd class='thebibliography' id='bib-55'>
-<p style="text-indent:0;"><span class='cmti-10x-x-109'>Prophet</span>.    [Online].    Available:    <a href='http://facebook.github.io/prophet/' class='url'><span class='cmtt-10x-x-109'>http://facebook.github.io/prophet/</span></a>   (visited    on
+<p style="text-indent:0;"><span class='cmti-10x-x-109'>Prophet</span>.    [Online].    Available:    <a href='https://facebook.github.io/prophet/' class='url'><span class='cmtt-10x-x-109'>https://facebook.github.io/prophet/</span></a>   (visited    on
 04/30/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-noauthor_large-scale_nodate'>
 [56]</dt><dd class='thebibliography' id='bib-56'>
 <p style="text-indent:0;"><span class='cmti-10x-x-109'>Large-scale  WebGL-powered  Geospatial  Data  Visualization  Tool</span>.   [Online].   Available:
-<a href='http://kepler.gl/' class='url'><span class='cmtt-10x-x-109'>http://kepler.gl/</span></a> (visited on 04/30/2021).
+<a href='https://kepler.gl/' class='url'><span class='cmtt-10x-x-109'>https://kepler.gl/</span></a> (visited on 04/30/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-noauthor_cloud_nodate'>
 [57]</dt><dd class='thebibliography' id='bib-57'>
