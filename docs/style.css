@@ -224,6 +224,12 @@ image-rendering: -o-crisp-edges; /* Opera */
 image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ image-rendering: crisp-edges; \
 -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
-@media (max-width: 768px) {
-  body{ font-size: 12px; }
+@media (max-width: 430px) {
+  body { font-size: 10px; margin:0 1em 0 1em; }
+  .chapterHead { font-size: 24px; }
+  .titleHead { font-size: 22px; }
+  .sectionHead { font-size: 18px; }
+  .subsectionHead { font-size: 14px; }
+  .subsubsectionHead { font-size: 10px; }
+  .tabular { font-size: 1px; }
 }
