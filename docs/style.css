@@ -224,7 +224,7 @@ image-rendering: -o-crisp-edges; /* Opera */
 image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ image-rendering: crisp-edges; \
 -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
   body { font-size: 10px; margin:0 1em 0 1em; }
   .chapterHead { font-size: 24px; }
   .titleHead { font-size: 22px; }
