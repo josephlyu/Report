@@ -160,6 +160,7 @@ p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-botto
 .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
 .quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
 .verse{white-space:nowrap; margin-left:2em}
+.maketitle { margin:0 0.5em 0 -0.5em; }
 div.maketitle {text-align:center;}
 h2.titleHead{text-align:center;}
 div.maketitle{ margin-bottom: 2em; }
@@ -224,6 +225,7 @@ image-rendering: -o-crisp-edges; /* Opera */
 image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ image-rendering: crisp-edges; \
 -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
+/* (41+1+1)em * 10px = 430px */
 @media screen and (max-width: 430px) {
   body { font-size: 10px; margin:0 1em 0 1em; }
   .chapterHead { font-size: 24px; }
@@ -231,5 +233,13 @@ image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ im
   .sectionHead { font-size: 18px; }
   .subsectionHead { font-size: 14px; }
   .subsubsectionHead { font-size: 10px; }
-  /* #table1 { font-size: 6px; } */
+}
+/* (41+1+1)em * 16px = 688px */
+@media screen and (max-width: 688px) {
+  body { font-size: 10px; }
+  .chapterHead { font-size: 24px; }
+  .titleHead { font-size: 22px; }
+  .sectionHead { font-size: 18px; }
+  .subsectionHead { font-size: 14px; }
+  .subsubsectionHead { font-size: 10px; }
 }
