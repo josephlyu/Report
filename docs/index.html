@@ -211,7 +211,7 @@ territories around the world at the time.
 </p>
 <p>Today, the number of cases has exceeded 151 million, while more than three million people
 have died. The UK was one of the countries hardest hit, but with the good progress the Mass
-Vaccination Programme has made since 8 December 2020[<a id='page.2'></a><a href='main.html#X0-noauthor_covid-19_2020'>1</a>], we can now hold a more optimistic
+Vaccination Programme has made since 8 December 2020[<a id='page.2'></a><a href='#X0-noauthor_covid-19_2020'>1</a>], we can now hold a more optimistic
 attitude.
 </p>
 <p>At the same time, machine learning has been applied extensively in this pandemic. We have seen a
@@ -282,9 +282,9 @@ in the subsequent chapters.
 <h3 class='sectionHead'><span class='titlemark'>2.1 </span> <a id='x1-90002.1'></a>Literature Review (Forecasting)</h3>
 <p>Over the past year we have seen a number of different methods used to predict the trends of
 COVID-19. In the early stage of the pandemic the models were mainly those produced by
-epidemiologists using epidemiological methods, including the SEIR and SEIRS models[<a id='page.5'></a><a href='main.html#X0-bjornstad_seirs_2020'>2</a>].
+epidemiologists using epidemiological methods, including the SEIR and SEIRS models[<a id='page.5'></a><a href='#X0-bjornstad_seirs_2020'>2</a>].
 However, here we need to recognise the uniqueness of the UK data in that the UK is one of
-the very few countries in the world that do not publish the COVID-19 recoveries data[<a href='main.html#X0-noauthor_health_2020'>3</a>],
+the very few countries in the world that do not publish the COVID-19 recoveries data[<a href='#X0-noauthor_health_2020'>3</a>],
 which is essential to build the SEIR model, and therefore this was not a viable option for my
 project.
 </p>
@@ -293,7 +293,7 @@ based models, machine learning based univariate models, and machine learning bas
 models.
 </p>
 <p>Maleki et al. developed an autoregressive time series model based on two-piece scale mixture normal
-distributions, called the TP-SMN-AR model[<a href='main.html#X0-maleki_time_2020'>4</a>]. It was fully mathematical and statistical based and
+distributions, called the TP-SMN-AR model[<a href='#X0-maleki_time_2020'>4</a>]. It was fully mathematical and statistical based and
 involved many classical autoregressive methods. The model achieved excellent results using worldwide
 COVID-19 recoveries cumulative data from 22 January 2020 to 30 April 2020 and fitting the last ten days,
 with MAPE errors as low as 0.22% and 1.6% for the confirmed cases and recoveries forecasting
@@ -303,7 +303,7 @@ predictions.
 </p>
 <p>This was followed by more studies on COVID-19 prediction based on machine learning and deep
 learning methods. Chimmula et al. were among the first researchers to use LSTM models for COVID-19
-prediction[<a href='main.html#X0-chimmula_time_2020'>5</a>] . They built a univariate LSTM model using data up to 31 March 2020 and predicted the
+prediction[<a href='#X0-chimmula_time_2020'>5</a>] . They built a univariate LSTM model using data up to 31 March 2020 and predicted the
 COVID-19 transmissions in Canada. In the short term, their model predicted that the COVID-19 cases
 would reach a peak in mid-April 2020, which can be considered correct, but they also made a
 
@@ -313,7 +313,7 @@ accurate.
 </p>
 <p>At the same time, LSTM models can certainly be difficult to train, as Shastri et al. built a
 univariate LSTM model using confirmed COVID-19 cases and deaths data up to 1 September 2020
-in India and provided 30-day predictions[<a id='page.6'></a><a href='main.html#X0-shastri_deep-lstm_2021'>6</a>]. The study suggested that the model achieved
+in India and provided 30-day predictions[<a id='page.6'></a><a href='#X0-shastri_deep-lstm_2021'>6</a>]. The study suggested that the model achieved
 97.59% and 98.88% accuracy in cases and deaths predictions respectively, which was apparently
 unconvincing: cumulative cases and deaths data were used in the figures presented for model
 predictions, the predicted values were not only inconsistent with the input data but were even
@@ -323,13 +323,13 @@ model was over-fitted and predictions on the training data were used to measure 
 performance.
 </p>
 <p>Shahid et al. provided a more robust COVID-19 predictive analysis using univariate deep learning
-models, including LSTM, GRU and Bi-LSTM[<a href='main.html#X0-shahid_predictions_2020'>7</a>]. They also experimented with statistical models such as
+models, including LSTM, GRU and Bi-LSTM[<a href='#X0-shahid_predictions_2020'>7</a>]. They also experimented with statistical models such as
 SVR and ARIMA. They used data for ten countries up to 27 June 2020, each with 110 days as input and
 48 days as forecast output. The findings were that the Bi-LSTM models generally provided the best
 results, but LSTM and GRU models can perform better for some countries; the deep learning models
 outperformed the statistical models.
 </p>
-<p>However, Barman’s study had different conclusions[<a href='main.html#X0-barman_time_nodate'>8</a>]. It also compared univariate deep
+<p>However, Barman’s study had different conclusions[<a href='#X0-barman_time_nodate'>8</a>]. It also compared univariate deep
 learning models ( variants of the LSTM model) and statistical model (ARIMA model), and
 used data up to 25 May 2020 in four countries, with the following results: in many cases,
 ARIMA provided better results than the complex LSTM models; the vanilla LSTM model
@@ -344,7 +344,7 @@ data.
 </p>
 <p>Yudistira saw the benefits of using multivariate datasets rather than univariate as the COVID-19 data is
 affected by many factors, and constructed a multivariate LSTM model in the experiment and compared it
-to a multivariate RNN model[<a href='main.html#X0-yudistira_covid-19_2020'>9</a>]. In addition to the COVID-19 cases, deaths and recoveries data, the
+to a multivariate RNN model[<a href='#X0-yudistira_covid-19_2020'>9</a>]. In addition to the COVID-19 cases, deaths and recoveries data, the
 
 
 models also used the latitude and longitude of a region as input. It used data up to 1 May 2020 for 100
@@ -356,7 +356,7 @@ used not only geographic data but also took into account demographic, economic, 
 factors.
 </p>
 <p>Chandra et al. conducted a more comprehensive experiment by comparing univariate and multivariate
-versions of the LSTM, BD-LSTM, and ED-LSTM models[<a id='page.7'></a><a href='main.html#X0-chandra_deep_2021'>10</a>] . It used data for 10 Indian states up to
+versions of the LSTM, BD-LSTM, and ED-LSTM models[<a id='page.7'></a><a href='#X0-chandra_deep_2021'>10</a>] . It used data for 10 Indian states up to
 September 2020 as input and population density as a multivariate feature, evaluated with 4-day
 projections and finally the best performing model was selected for a two-month prediction. The results
 were: the LSTM and BD-LSTM models outperformed the ED-LSTM model overall; the univariate models
@@ -369,7 +369,7 @@ study, I believe using data of lockdown measures as one of the inputs would have
 helpful.
 </p>
 <p>Said et al. further improved the process of building a multivariate LSTM model for COVID-19
-forecasting[<a href='main.html#X0-said_predicting_2020'>11</a>]. It first applied KMeans to cluster individual countries based on demographic,
+forecasting[<a href='#X0-said_predicting_2020'>11</a>]. It first applied KMeans to cluster individual countries based on demographic,
 social-economic and health sector indicator data, and used COVID-19 data for countries clustered with
 Qatar up to 31 June 2020 as training data, then built a multivariate Bi-LSTM model with the feature of
 the lockdown measures added to perform 10-day predictions for Qatar. The training data of the model was
@@ -392,24 +392,24 @@ work.
 </tr><tr id='TBL-002-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-002-7-1' style='text-align:center; white-space:nowrap;'>                                Tests, Ventilators, R0                                                  </td></tr></table></div>  </td><td class='td11' id='TBL-01-4-5' style='text-align:center; white-space:nowrap;'>  20 Apr 2021   </td><td class='td11' id='TBL-01-4-6' style='text-align:center; white-space:nowrap;'>                                          UK                                                                  </td><td class='td11' id='TBL-01-4-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-3' class='tabular'><colgroup id='TBL-3-1g'><col id='TBL-3-1'></colgroup><tr id='TBL-3-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-3-1-1' style='text-align:center; white-space:nowrap;'>                       LSTM model outperformed ARIMA model                                    </td>
 </tr><tr id='TBL-03-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-03-4-1' style='text-align:center; white-space:nowrap;'>                          and had 94.3%/96.2% accuracy for                                          </td>
 </tr><tr id='TBL-003-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-003-7-1' style='text-align:center; white-space:nowrap;'>                               cases/deaths forecasting                                                 </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-001-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-001-7-1' style='text-align:left; white-space:nowrap;'> Shastri et al.[<a id='page.9'></a><a href='main.html#X0-shastri_deep-lstm_2021'>6</a>]                                                                                                               </td><td class='td11' id='TBL-001-7-2' style='text-align:center; white-space:nowrap;'>                                        LSTM                                                                </td><td class='td11' id='TBL-001-7-3' style='text-align:center; white-space:nowrap;'>                                        30 days                                                               </td><td class='td11' id='TBL-001-7-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-001-7-5' style='text-align:center; white-space:nowrap;'>  1 Sep 2020   </td><td class='td11' id='TBL-001-7-6' style='text-align:center; white-space:nowrap;'>                                         India                                                                </td><td class='td11' id='TBL-001-7-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-4' class='tabular'><colgroup id='TBL-4-1g'><col id='TBL-4-1'></colgroup><tr id='TBL-4-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-4-1-1' style='text-align:center; white-space:nowrap;'>                         The study suggested 97.59%/98.88%                                        </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-001-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-001-7-1' style='text-align:left; white-space:nowrap;'> Shastri et al.[<a id='page.9'></a><a href='#X0-shastri_deep-lstm_2021'>6</a>]                                                                                                               </td><td class='td11' id='TBL-001-7-2' style='text-align:center; white-space:nowrap;'>                                        LSTM                                                                </td><td class='td11' id='TBL-001-7-3' style='text-align:center; white-space:nowrap;'>                                        30 days                                                               </td><td class='td11' id='TBL-001-7-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-001-7-5' style='text-align:center; white-space:nowrap;'>  1 Sep 2020   </td><td class='td11' id='TBL-001-7-6' style='text-align:center; white-space:nowrap;'>                                         India                                                                </td><td class='td11' id='TBL-001-7-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-4' class='tabular'><colgroup id='TBL-4-1g'><col id='TBL-4-1'></colgroup><tr id='TBL-4-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-4-1-1' style='text-align:center; white-space:nowrap;'>                         The study suggested 97.59%/98.88%                                        </td>
 </tr><tr id='TBL-04-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-04-4-1' style='text-align:center; white-space:nowrap;'>                          accuracy for cases/deaths forecasting                                        </td>
 </tr><tr id='TBL-004-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-004-7-1' style='text-align:center; white-space:nowrap;'>                            but the model performed poorly                                           </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0001-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-0001-10-1' style='text-align:left; white-space:nowrap;'> Yudistira[<a href='main.html#X0-yudistira_covid-19_2020'>9</a>]                                                                                                                    </td><td class='td11' id='TBL-0001-10-2' style='text-align:center; white-space:nowrap;'>                                      LSTM,RNN                                                            </td><td class='td11' id='TBL-0001-10-3' style='text-align:center; white-space:nowrap;'>                                        33 days                                                               </td><td class='td11' id='TBL-0001-10-4' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-5' class='tabular'><colgroup id='TBL-5-1g'><col id='TBL-5-1'></colgroup><tr id='TBL-5-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-5-1-1' style='text-align:center; white-space:nowrap;'>                              Cases/Deaths/Recovered,                                               </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0001-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-0001-10-1' style='text-align:left; white-space:nowrap;'> Yudistira[<a href='#X0-yudistira_covid-19_2020'>9</a>]                                                                                                                    </td><td class='td11' id='TBL-0001-10-2' style='text-align:center; white-space:nowrap;'>                                      LSTM,RNN                                                            </td><td class='td11' id='TBL-0001-10-3' style='text-align:center; white-space:nowrap;'>                                        33 days                                                               </td><td class='td11' id='TBL-0001-10-4' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-5' class='tabular'><colgroup id='TBL-5-1g'><col id='TBL-5-1'></colgroup><tr id='TBL-5-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-5-1-1' style='text-align:center; white-space:nowrap;'>                              Cases/Deaths/Recovered,                                               </td>
 </tr><tr id='TBL-05-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-05-4-1' style='text-align:center; white-space:nowrap;'>                                 Longitude, Latitude                                                   </td></tr></table></div>  </td><td class='td11' id='TBL-0001-10-5' style='text-align:center; white-space:nowrap;'>  1 May 2020   </td><td class='td11' id='TBL-0001-10-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-6' class='tabular'><colgroup id='TBL-6-1g'><col id='TBL-6-1'></colgroup><tr id='TBL-6-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-6-1-1' style='text-align:center; white-space:nowrap;'>                                      Various                                                           </td></tr><tr id='TBL-06-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-06-4-1' style='text-align:center; white-space:nowrap;'> Countries</td></tr></table></div>  </td><td class='td11' id='TBL-0001-10-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-7' class='tabular'><colgroup id='TBL-7-1g'><col id='TBL-7-1'></colgroup><tr id='TBL-7-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-7-1-1' style='text-align:center; white-space:nowrap;'>                        LSTM model outperformed RNN model                                      </td>
 </tr><tr id='TBL-07-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-07-4-1' style='text-align:center; white-space:nowrap;'>                          and had relatively good performance                                        </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00001-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-00001-13-1' style='text-align:left; white-space:nowrap;'> Shahid et al.[<a href='main.html#X0-shahid_predictions_2020'>7</a>]                                                                                                               </td><td class='td11' id='TBL-00001-13-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-8' class='tabular'><colgroup id='TBL-8-1g'><col id='TBL-8-1'></colgroup><tr id='TBL-8-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-8-1-1' style='text-align:center; white-space:nowrap;'>                                   ARIMA,SVR,                                                       </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00001-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-00001-13-1' style='text-align:left; white-space:nowrap;'> Shahid et al.[<a href='#X0-shahid_predictions_2020'>7</a>]                                                                                                               </td><td class='td11' id='TBL-00001-13-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-8' class='tabular'><colgroup id='TBL-8-1g'><col id='TBL-8-1'></colgroup><tr id='TBL-8-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-8-1-1' style='text-align:center; white-space:nowrap;'>                                   ARIMA,SVR,                                                       </td>
 </tr><tr id='TBL-08-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-08-4-1' style='text-align:center; white-space:nowrap;'>                                    GRU,LSTM,                                                        </td>
 </tr><tr id='TBL-008-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-008-7-1' style='text-align:center; white-space:nowrap;'>                                     Bi-LSTM                                                          </td></tr></table></div>  </td><td class='td11' id='TBL-00001-13-3' style='text-align:center; white-space:nowrap;'>                                        48 days                                                               </td><td class='td11' id='TBL-00001-13-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-00001-13-5' style='text-align:center; white-space:nowrap;'>  27 Jun 2020   </td><td class='td11' id='TBL-00001-13-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-9' class='tabular'><colgroup id='TBL-9-1g'><col id='TBL-9-1'></colgroup><tr id='TBL-9-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-9-1-1' style='text-align:center; white-space:nowrap;'>                                   10 Countries                                                        </td></tr><tr id='TBL-09-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-09-4-1' style='text-align:center; white-space:nowrap;'> including</td>
 </tr><tr id='TBL-009-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-009-7-1' style='text-align:center; white-space:nowrap;'>                                       Brazil                                                             </td></tr></table></div>  </td><td class='td11' id='TBL-00001-13-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-10' class='tabular'><colgroup id='TBL-10-1g'><col id='TBL-10-1'></colgroup><tr id='TBL-10-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-10-1-1' style='text-align:center; white-space:nowrap;'>                         Bi-LSTM model performed generally                                        </td>
 </tr><tr id='TBL-010-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-010-4-1' style='text-align:center; white-space:nowrap;'>                           better but LSTM and GRU model                                          </td></tr><tr id='TBL-0010-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-0010-7-1' style='text-align:center; white-space:nowrap;'> performed better in some countries</td>
 </tr></table>                                                                                                                                    </div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000001-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-000001-16-1' style='text-align:left; white-space:nowrap;'> Barman[<a href='main.html#X0-barman_time_nodate'>8</a>]                                                                                                                     </td><td class='td11' id='TBL-000001-16-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-11' class='tabular'><colgroup id='TBL-11-1g'><col id='TBL-11-1'></colgroup><tr id='TBL-11-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-11-1-1' style='text-align:center; white-space:nowrap;'>                                  ARIMA,LSTM                                                      </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000001-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-000001-16-1' style='text-align:left; white-space:nowrap;'> Barman[<a href='#X0-barman_time_nodate'>8</a>]                                                                                                                     </td><td class='td11' id='TBL-000001-16-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-11' class='tabular'><colgroup id='TBL-11-1g'><col id='TBL-11-1'></colgroup><tr id='TBL-11-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-11-1-1' style='text-align:center; white-space:nowrap;'>                                  ARIMA,LSTM                                                      </td>
 </tr><tr id='TBL-011-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-011-4-1' style='text-align:center; white-space:nowrap;'>                                    (and various                                                        </td>
 </tr><tr id='TBL-0011-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-0011-7-1' style='text-align:center; white-space:nowrap;'>                                    extensions)                                                         </td></tr></table></div>  </td><td class='td11' id='TBL-000001-16-3' style='text-align:center; white-space:nowrap;'>                                       1/3/5 days                                                             </td><td class='td11' id='TBL-000001-16-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000001-16-5' style='text-align:center; white-space:nowrap;'> 25 May 2020  </td><td class='td11' id='TBL-000001-16-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-12' class='tabular'><colgroup id='TBL-12-1g'><col id='TBL-12-1'></colgroup><tr id='TBL-12-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-12-1-1' style='text-align:center; white-space:nowrap;'>                                   US, Germany,                                                       </td>
 </tr><tr id='TBL-012-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-012-4-1' style='text-align:center; white-space:nowrap;'>                                    Italy, Spain                                                         </td></tr></table></div>  </td><td class='td11' id='TBL-000001-16-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-13' class='tabular'><colgroup id='TBL-13-1g'><col id='TBL-13-1'></colgroup><tr id='TBL-13-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-13-1-1' style='text-align:center; white-space:nowrap;'>                      ARIMA model outperformed LSTM models                                   </td>
 </tr><tr id='TBL-013-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-013-4-1' style='text-align:center; white-space:nowrap;'>                         LSTM model outperformed its variants                                       </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000001-19-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000001-19-1' style='text-align:left; white-space:nowrap;'> Chandra et al.[<a href='main.html#X0-chandra_deep_2021'>10</a>]                                                                                                           </td><td class='td11' id='TBL-0000001-19-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-14' class='tabular'><colgroup id='TBL-14-1g'><col id='TBL-14-1'></colgroup><tr id='TBL-14-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-14-1-1' style='text-align:center; white-space:nowrap;'>                                      LSTM,                                                           </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000001-19-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000001-19-1' style='text-align:left; white-space:nowrap;'> Chandra et al.[<a href='#X0-chandra_deep_2021'>10</a>]                                                                                                           </td><td class='td11' id='TBL-0000001-19-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-14' class='tabular'><colgroup id='TBL-14-1g'><col id='TBL-14-1'></colgroup><tr id='TBL-14-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-14-1-1' style='text-align:center; white-space:nowrap;'>                                      LSTM,                                                           </td>
 </tr><tr id='TBL-014-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-014-4-1' style='text-align:center; white-space:nowrap;'>                                    BD-LSTM,                                                         </td>
 </tr><tr id='TBL-0014-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-0014-7-1' style='text-align:center; white-space:nowrap;'>                                     ED-LSTM                                                          </td></tr></table></div>  </td><td class='td11' id='TBL-0000001-19-3' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-15' class='tabular'><colgroup id='TBL-15-1g'><col id='TBL-15-1'></colgroup><tr id='TBL-15-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-15-1-1' style='text-align:center; white-space:nowrap;'>                                   1/2/3/4 days                                                       </td>
 </tr><tr id='TBL-015-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-015-4-1' style='text-align:center; white-space:nowrap;'>                                    (validation)                                                         </td>
@@ -417,13 +417,13 @@ work.
 </tr><tr id='TBL-00015-10-' style='vertical-align:baseline;'><td class='td00' id='TBL-00015-10-1' style='text-align:center; white-space:nowrap;'>                                    (prediction)                                                         </td></tr></table></div>  </td><td class='td11' id='TBL-0000001-19-4' style='text-align:center; white-space:nowrap;'>                                   Population Density                                                       </td><td class='td11' id='TBL-0000001-19-5' style='text-align:center; white-space:nowrap;'>  30 Sep 2020   </td><td class='td11' id='TBL-0000001-19-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-16' class='tabular'><colgroup id='TBL-16-1g'><col id='TBL-16-1'></colgroup><tr id='TBL-16-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-16-1-1' style='text-align:center; white-space:nowrap;'>                                     10 States                                                          </td></tr><tr id='TBL-016-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-016-4-1' style='text-align:center; white-space:nowrap;'> in India</td></tr></table></div>  </td><td class='td11' id='TBL-0000001-19-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-17' class='tabular'><colgroup id='TBL-17-1g'><col id='TBL-17-1'></colgroup><tr id='TBL-17-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-17-1-1' style='text-align:center; white-space:nowrap;'>                         (univariate outperformed multivariate)                                       </td>
 </tr><tr id='TBL-017-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-017-4-1' style='text-align:center; white-space:nowrap;'>                             LSTM and BD-LSTM models                                             </td></tr><tr id='TBL-0017-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-0017-7-1' style='text-align:center; white-space:nowrap;'> outperformed ED-LSTM model and</td>
 </tr><tr id='TBL-00017-10-' style='vertical-align:baseline;'><td class='td00' id='TBL-00017-10-1' style='text-align:center; white-space:nowrap;'>                            had relatively good performance                                           </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00000001-22-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000001-22-1' style='text-align:left; white-space:nowrap;'> Said et al.[<a href='main.html#X0-said_predicting_2020'>11</a>]                                                                                                                 </td><td class='td11' id='TBL-00000001-22-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-18' class='tabular'><colgroup id='TBL-18-1g'><col id='TBL-18-1'></colgroup><tr id='TBL-18-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-18-1-1' style='text-align:center; white-space:nowrap;'>                                     KMeans+                                                          </td></tr><tr id='TBL-018-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-018-4-1' style='text-align:center; white-space:nowrap;'> Bi-LSTM</td></tr></table></div>  </td><td class='td11' id='TBL-00000001-22-3' style='text-align:center; white-space:nowrap;'>                                        10 days                                                               </td><td class='td11' id='TBL-00000001-22-4' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-19' class='tabular'><colgroup id='TBL-19-1g'><col id='TBL-19-1'></colgroup><tr id='TBL-19-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-19-1-1' style='text-align:center; white-space:nowrap;'>                            Demographic, Socioeconomic,                                             </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00000001-22-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000001-22-1' style='text-align:left; white-space:nowrap;'> Said et al.[<a href='#X0-said_predicting_2020'>11</a>]                                                                                                                 </td><td class='td11' id='TBL-00000001-22-2' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-18' class='tabular'><colgroup id='TBL-18-1g'><col id='TBL-18-1'></colgroup><tr id='TBL-18-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-18-1-1' style='text-align:center; white-space:nowrap;'>                                     KMeans+                                                          </td></tr><tr id='TBL-018-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-018-4-1' style='text-align:center; white-space:nowrap;'> Bi-LSTM</td></tr></table></div>  </td><td class='td11' id='TBL-00000001-22-3' style='text-align:center; white-space:nowrap;'>                                        10 days                                                               </td><td class='td11' id='TBL-00000001-22-4' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-19' class='tabular'><colgroup id='TBL-19-1g'><col id='TBL-19-1'></colgroup><tr id='TBL-19-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-19-1-1' style='text-align:center; white-space:nowrap;'>                            Demographic, Socioeconomic,                                             </td>
 </tr><tr id='TBL-019-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-019-4-1' style='text-align:center; white-space:nowrap;'>                               Health Sector, Lockdown                                                </td></tr></table></div>  </td><td class='td11' id='TBL-00000001-22-5' style='text-align:center; white-space:nowrap;'>  31 Jul 2020   </td><td class='td11' id='TBL-00000001-22-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-20' class='tabular'><colgroup id='TBL-20-1g'><col id='TBL-20-1'></colgroup><tr id='TBL-20-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-20-1-1' style='text-align:center; white-space:nowrap;'>                                    Qatar and                                                         </td>
 </tr><tr id='TBL-020-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-020-4-1' style='text-align:center; white-space:nowrap;'>                                       other                                                             </td></tr><tr id='TBL-0020-7-' style='vertical-align:baseline;'><td class='td00' id='TBL-0020-7-1' style='text-align:center; white-space:nowrap;'> countries</td></tr></table></div>  </td><td class='td11' id='TBL-00000001-22-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-21' class='tabular'><colgroup id='TBL-21-1g'><col id='TBL-21-1'></colgroup><tr id='TBL-21-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-21-1-1' style='text-align:center; white-space:nowrap;'>                      Bi-LSTM model outperformed LSTM model,                                   </td>
 </tr><tr id='TBL-021-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-021-4-1' style='text-align:center; white-space:nowrap;'>                           lockdown data improves accuracy                                           </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000000001-25-' style='vertical-align:baseline;'><td class='td11' id='TBL-000000001-25-1' style='text-align:left; white-space:nowrap;'> Maleki et al.[<a href='main.html#X0-maleki_time_2020'>4</a>]                                                                                                               </td><td class='td11' id='TBL-000000001-25-2' style='text-align:center; white-space:nowrap;'>                                      TP-SMN-AR                                                           </td><td class='td11' id='TBL-000000001-25-3' style='text-align:center; white-space:nowrap;'>                                        10 days                                                               </td><td class='td11' id='TBL-000000001-25-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000000001-25-5' style='text-align:center; white-space:nowrap;'>  30 Apr 2020   </td><td class='td11' id='TBL-000000001-25-6' style='text-align:center; white-space:nowrap;'>                                         World                                                                </td><td class='td11' id='TBL-000000001-25-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-22' class='tabular'><colgroup id='TBL-22-1g'><col id='TBL-22-1'></colgroup><tr id='TBL-22-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-22-1-1' style='text-align:center; white-space:nowrap;'>                        The model had really good performance                                      </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000000001-25-' style='vertical-align:baseline;'><td class='td11' id='TBL-000000001-25-1' style='text-align:left; white-space:nowrap;'> Maleki et al.[<a href='#X0-maleki_time_2020'>4</a>]                                                                                                               </td><td class='td11' id='TBL-000000001-25-2' style='text-align:center; white-space:nowrap;'>                                      TP-SMN-AR                                                           </td><td class='td11' id='TBL-000000001-25-3' style='text-align:center; white-space:nowrap;'>                                        10 days                                                               </td><td class='td11' id='TBL-000000001-25-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000000001-25-5' style='text-align:center; white-space:nowrap;'>  30 Apr 2020   </td><td class='td11' id='TBL-000000001-25-6' style='text-align:center; white-space:nowrap;'>                                         World                                                                </td><td class='td11' id='TBL-000000001-25-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-22' class='tabular'><colgroup id='TBL-22-1g'><col id='TBL-22-1'></colgroup><tr id='TBL-22-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-22-1-1' style='text-align:center; white-space:nowrap;'>                        The model had really good performance                                      </td>
 </tr><tr id='TBL-022-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-022-4-1' style='text-align:center; white-space:nowrap;'>                         and prodived 98% confidence interval                                        </td></tr></table></div>  </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000000001-28-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000000001-28-1' style='text-align:left; white-space:nowrap;'> Chimmula et al.[<a href='main.html#X0-chimmula_time_2020'>5</a>]                                                                                                          </td><td class='td11' id='TBL-0000000001-28-2' style='text-align:center; white-space:nowrap;'>                                        LSTM                                                                </td><td class='td11' id='TBL-0000000001-28-3' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-23' class='tabular'><colgroup id='TBL-23-1g'><col id='TBL-23-1'></colgroup><tr id='TBL-23-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-23-1-1' style='text-align:center; white-space:nowrap;'>                                   2/4/6/8/10/                                                        </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000000001-28-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000000001-28-1' style='text-align:left; white-space:nowrap;'> Chimmula et al.[<a href='#X0-chimmula_time_2020'>5</a>]                                                                                                          </td><td class='td11' id='TBL-0000000001-28-2' style='text-align:center; white-space:nowrap;'>                                        LSTM                                                                </td><td class='td11' id='TBL-0000000001-28-3' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-23' class='tabular'><colgroup id='TBL-23-1g'><col id='TBL-23-1'></colgroup><tr id='TBL-23-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-23-1-1' style='text-align:center; white-space:nowrap;'>                                   2/4/6/8/10/                                                        </td>
 </tr><tr id='TBL-023-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-023-4-1' style='text-align:center; white-space:nowrap;'>                                    12/14 days                                                         </td></tr></table></div>  </td><td class='td11' id='TBL-0000000001-28-4' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000000001-28-5' style='text-align:center; white-space:nowrap;'>  31 Mar 2020  </td><td class='td11' id='TBL-0000000001-28-6' style='text-align:center; white-space:nowrap;'>                                        Canada                                                               </td><td class='td11' id='TBL-0000000001-28-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-24' class='tabular'><colgroup id='TBL-24-1g'><col id='TBL-24-1'></colgroup><tr id='TBL-24-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-24-1-1' style='text-align:center; white-space:nowrap;'>                         Model prediction of Canada was close                                       </td>
 </tr><tr id='TBL-024-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-024-4-1' style='text-align:center; white-space:nowrap;'>                         in short term but wrong in long term                                        </td></tr></table></div>  </td>
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr></table>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </div>
@@ -440,7 +440,7 @@ work.
 important to first understand the existing work.
 </p>
 <p>As the project is focused on the UK, we can not ignore the official UK government COVID-19
-dashboard, which was developed by Public Health England[<a id='page.10'></a><a href='main.html#X0-noauthor_official_nodate'>12</a>]. As the audience is the general public, it
+dashboard, which was developed by Public Health England[<a id='page.10'></a><a href='#X0-noauthor_official_nodate'>12</a>]. As the audience is the general public, it
 provides basic and essential information for all regions of the UK and is of relatively good usability. The
 only problem is that it has too many metrics for each data, for example, for COVID-19 cases data,
 it has cases by reporting date data, cases by testing data, cases by laboratory testing data,
@@ -457,13 +457,13 @@ dashboard.
 <p><img alt='PIC' width='95%' src='figures/official.png'> <a id='x1-10001r1'></a>
 <a id='x1-10002'></a>
 </p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.1:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the official UK government dashboard[</span><a href='main.html#X0-noauthor_official_nodate'><span class='cmr-10'>12</span></a><span class='cmr-10'>].</span>                                      
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.1:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the official UK government dashboard[</span><a href='#X0-noauthor_official_nodate'><span class='cmr-10'>12</span></a><span class='cmr-10'>].</span>                                      
 </span></figcaption><!-- tex4ht:label?: x1-10001r2.2  -->
 
 
 </figure>
 <p>Another important dashboard was developed by Johns Hopkins University (JHU) and it has been
-referenced by various organisations[<a id='page.13'></a><a href='main.html#X0-dong_interactive_2020'>13</a>]. JHU has collected data for each country in the world since the
+referenced by various organisations[<a id='page.13'></a><a href='#X0-dong_interactive_2020'>13</a>]. JHU has collected data for each country in the world since the
 beginning of the pandemic, and the dashboard provides the basic information presented in a map. Figure
 <a href='#x1-10003r2'>2.2<!-- tex4ht:ref: fig:jhu  --></a> contains a screenshot of the JHU dashboard.
 </p>
@@ -476,17 +476,17 @@ beginning of the pandemic, and the dashboard provides the basic information pres
 <p><img alt='PIC' width='95%' src='figures/jhu.png'> <a id='x1-10003r2'></a>
 <a id='x1-10004'></a>
 </p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.2:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the JHU dashboard[</span><a href='main.html#X0-dong_interactive_2020'><span class='cmr-10'>13</span></a><span class='cmr-10'>].</span>                                                              
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.2:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the JHU dashboard[</span><a href='#X0-dong_interactive_2020'><span class='cmr-10'>13</span></a><span class='cmr-10'>].</span>                                                              
 </span></figcaption><!-- tex4ht:label?: x1-10003r2.2  -->
 
 
 </figure>
 <p>Our World in Data has also developed a dashboard for the global COVID-19 data with comprehensive
-charts and analysis[<a id='page.16'></a><a href='main.html#X0-noauthor_coronavirus_nodate'>14</a>]. However, this dashboard is somewhat overly complex and the hierarchy of charts is
+charts and analysis[<a id='page.16'></a><a href='#X0-noauthor_coronavirus_nodate'>14</a>]. However, this dashboard is somewhat overly complex and the hierarchy of charts is
 not clearly organised, making it relatively less usable.
 </p>
 <p>In contrast, Bhatia provided a dashboard focusing on COVID-19 trends in different countries with good
-usability[<a href='main.html#X0-aatish_bhatia_covid_nodate'>15</a>]. Figure <a href='#x1-10005r3'>2.3<!-- tex4ht:ref: fig:trend  --></a> contains a screenshot of Bhatia’s dashboard.
+usability[<a href='#X0-aatish_bhatia_covid_nodate'>15</a>]. Figure <a href='#x1-10005r3'>2.3<!-- tex4ht:ref: fig:trend  --></a> contains a screenshot of Bhatia’s dashboard.
 </p>
 <figure class='figure'>
 
@@ -497,13 +497,13 @@ usability[<a href='main.html#X0-aatish_bhatia_covid_nodate'>15</a>]. Figure <a h
 <p><img alt='PIC' width='95%' src='figures/trend.png'> <a id='x1-10005r3'></a>
 <a id='x1-10006'></a>
 </p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.3:: </span></span><span class='content'><span class='cmr-10'>Screenshot of Bhatia’s dashboard[</span><a href='main.html#X0-aatish_bhatia_covid_nodate'><span class='cmr-10'>15</span></a><span class='cmr-10'>].</span>                                                              
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.3:: </span></span><span class='content'><span class='cmr-10'>Screenshot of Bhatia’s dashboard[</span><a href='#X0-aatish_bhatia_covid_nodate'><span class='cmr-10'>15</span></a><span class='cmr-10'>].</span>                                                              
 </span></figcaption><!-- tex4ht:label?: x1-10005r2.2  -->
 
 
 </figure>
 <p>Incubator for Media Education and Development (iMEdB) developed an impressive dashboard for
-Greece[<a id='page.19'></a><a href='main.html#X0-noauthor_covid19_nodate'>16</a>]. It provides basic data about Greece and the world, and also shows the major events in
+Greece[<a id='page.19'></a><a href='#X0-noauthor_covid19_nodate'>16</a>]. It provides basic data about Greece and the world, and also shows the major events in
 Greece as annotations. The structure is well designed and the visualisation is informative,
 thus the dashboard has promising usability. Figure <a href='#x1-10007r4'>2.4<!-- tex4ht:ref: fig:lab  --></a> contains a screenshot of the iMEdB
 dashboard.
@@ -517,12 +517,12 @@ dashboard.
 <p><img alt='PIC' width='95%' src='figures/lab.png'> <a id='x1-10007r4'></a>
 <a id='x1-10008'></a>
 </p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.4:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the iMEdB dashboard[</span><a href='main.html#X0-noauthor_covid19_nodate'><span class='cmr-10'>16</span></a><span class='cmr-10'>].</span>                                                          
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.4:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the iMEdB dashboard[</span><a href='#X0-noauthor_covid19_nodate'><span class='cmr-10'>16</span></a><span class='cmr-10'>].</span>                                                          
 </span></figcaption><!-- tex4ht:label?: x1-10007r2.2  -->
 
 
 </figure>
-<p>The University of Texas (UT) included a forecast in their work[<a id='page.22'></a><a href='main.html#X0-noauthor_us_nodate'>17</a>]. It provides a three-week projection
+<p>The University of Texas (UT) included a forecast in their work[<a id='page.22'></a><a href='#X0-noauthor_us_nodate'>17</a>]. It provides a three-week projection
 for US mortality data, using SEIR and curve fitting methods. It is simple and useful. Figure <a href='#x1-10009r5'>2.5<!-- tex4ht:ref: fig:ut  --></a> contains a
 screenshot of the UT dashboard.
 </p>
@@ -535,13 +535,13 @@ screenshot of the UT dashboard.
 <p><img alt='PIC' width='95%' src='figures/ut.png'> <a id='x1-10009r5'></a>
 <a id='x1-10010'></a>
 </p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.5:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the UT dashboard[</span><a href='main.html#X0-noauthor_us_nodate'><span class='cmr-10'>17</span></a><span class='cmr-10'>].</span>                                                               
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.5:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the UT dashboard[</span><a href='#X0-noauthor_us_nodate'><span class='cmr-10'>17</span></a><span class='cmr-10'>].</span>                                                               
 </span></figcaption><!-- tex4ht:label?: x1-10009r2.2  -->
 
 
 </figure>
 <p>The COVID-19 ForecastHub provided a more comprehensive dashboard in terms of forecasting and is
-the data source for the official US CDC COVID-19 forecasting page[<a id='page.25'></a><a href='main.html#X0-noauthor_viz_nodate'>18</a>]. It integrates more than 20
+the data source for the official US CDC COVID-19 forecasting page[<a id='page.25'></a><a href='#X0-noauthor_viz_nodate'>18</a>]. It integrates more than 20
 predictive models, including statistical and machine learning models for US COVID-19 cases and deaths
 predictions. However, the different models provide very different results, making this dashboard only
 suitable for technical audiences. Figure <a href='#x1-10011r6'>2.6<!-- tex4ht:ref: fig:hub  --></a> contains a screenshot of the COVID-19 ForecastHub
@@ -556,7 +556,7 @@ dashboard.
 <p><img alt='PIC' width='95%' src='figures/hub.png'> <a id='x1-10011r6'></a>
 <a id='x1-10012'></a>
 </p>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.6:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the COVID-19 ForecastHub dashboard[</span><a href='main.html#X0-noauthor_viz_nodate'><span class='cmr-10'>18</span></a><span class='cmr-10'>].</span>                                    
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Figure 2.6:: </span></span><span class='content'><span class='cmr-10'>Screenshot of the COVID-19 ForecastHub dashboard[</span><a href='#X0-noauthor_viz_nodate'><span class='cmr-10'>18</span></a><span class='cmr-10'>].</span>                                    
 </span></figcaption><!-- tex4ht:label?: x1-10011r2.2  -->
 
 
@@ -575,20 +575,20 @@ proposed work.
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-025-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-025-4-1' style='text-align:left; white-space:nowrap;'> Proposed Work                                                                                                                  </td><td class='td11' id='TBL-025-4-2' style='text-align:center; white-space:nowrap;'>  UK    </td><td class='td11' id='TBL-025-4-3' style='text-align:center; white-space:nowrap;'>   UK    </td><td class='td11' id='TBL-025-4-4' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-025-4-5' style='text-align:center; white-space:nowrap;'>                                   (UK) Cases/Deaths                                                       </td><td class='td11' id='TBL-025-4-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-26' class='tabular'><colgroup id='TBL-26-1g'><col id='TBL-26-1'></colgroup><tr id='TBL-26-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-26-1-1' style='text-align:center; white-space:nowrap;'>                                (UK) Cases/Deaths:                                                   </td>
 </tr><tr id='TBL-026-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-026-4-1' style='text-align:center; white-space:nowrap;'>                               LSTM,ARIMA,Ensemble                                                </td></tr></table></div>  </td><td class='td11' id='TBL-025-4-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-27' class='tabular'><colgroup id='TBL-27-1g'><col id='TBL-27-1'></colgroup><tr id='TBL-27-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-27-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
 </tr><tr id='TBL-027-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-027-4-1' style='text-align:center; white-space:nowrap;'>                                   Non-technical                                                        </td></tr></table></div>  </td><td class='td11' id='TBL-025-4-8' style='text-align:center; white-space:nowrap;'>      3          </td><td class='td11' id='TBL-025-4-9' style='text-align:center; white-space:nowrap;'>    4.5       </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0025-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-0025-7-1' style='text-align:left; white-space:nowrap;'> UK Government[<a id='page.30'></a><a href='main.html#X0-noauthor_official_nodate'>12</a>]                                                                                                            </td><td class='td11' id='TBL-0025-7-2' style='text-align:center; white-space:nowrap;'>  UK    </td><td class='td11' id='TBL-0025-7-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-0025-7-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-0025-7-5' style='text-align:center; white-space:nowrap;'>                                      (UK) Cases                                                            </td><td class='td11' id='TBL-0025-7-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0025-7-7' style='text-align:center; white-space:nowrap;'>                                     Non-technical                                                           </td><td class='td11' id='TBL-0025-7-8' style='text-align:center; white-space:nowrap;'>      3          </td><td class='td11' id='TBL-0025-7-9' style='text-align:center; white-space:nowrap;'>     4        </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00025-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-00025-10-1' style='text-align:left; white-space:nowrap;'> JHU CSSE[<a href='main.html#X0-dong_interactive_2020'>13</a>]                                                                                                                   </td><td class='td11' id='TBL-00025-10-2' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-00025-10-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-00025-10-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-00025-10-5' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-28' class='tabular'><colgroup id='TBL-28-1g'><col id='TBL-28-1'></colgroup><tr id='TBL-28-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-28-1-1' style='text-align:center; white-space:nowrap;'>                               (World) Cases, Cases/                                                 </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0025-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-0025-7-1' style='text-align:left; white-space:nowrap;'> UK Government[<a id='page.30'></a><a href='#X0-noauthor_official_nodate'>12</a>]                                                                                                            </td><td class='td11' id='TBL-0025-7-2' style='text-align:center; white-space:nowrap;'>  UK    </td><td class='td11' id='TBL-0025-7-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-0025-7-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-0025-7-5' style='text-align:center; white-space:nowrap;'>                                      (UK) Cases                                                            </td><td class='td11' id='TBL-0025-7-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0025-7-7' style='text-align:center; white-space:nowrap;'>                                     Non-technical                                                           </td><td class='td11' id='TBL-0025-7-8' style='text-align:center; white-space:nowrap;'>      3          </td><td class='td11' id='TBL-0025-7-9' style='text-align:center; white-space:nowrap;'>     4        </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00025-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-00025-10-1' style='text-align:left; white-space:nowrap;'> JHU CSSE[<a href='#X0-dong_interactive_2020'>13</a>]                                                                                                                   </td><td class='td11' id='TBL-00025-10-2' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-00025-10-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-00025-10-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-00025-10-5' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-28' class='tabular'><colgroup id='TBL-28-1g'><col id='TBL-28-1'></colgroup><tr id='TBL-28-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-28-1-1' style='text-align:center; white-space:nowrap;'>                               (World) Cases, Cases/                                                 </td>
 </tr><tr id='TBL-028-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-028-4-1' style='text-align:center; white-space:nowrap;'>                                Deaths/Testing rates                                                   </td></tr></table></div>  </td><td class='td11' id='TBL-00025-10-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-00025-10-7' style='text-align:center; white-space:nowrap;'>                                     Non-technical                                                           </td><td class='td11' id='TBL-00025-10-8' style='text-align:center; white-space:nowrap;'>      2          </td><td class='td11' id='TBL-00025-10-9' style='text-align:center; white-space:nowrap;'>     3        </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000025-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-000025-13-1' style='text-align:left; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-29' class='tabular'><colgroup id='TBL-29-1g'><col id='TBL-29-1'></colgroup><tr id='TBL-29-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-29-1-1' style='text-align:left; white-space:nowrap;'>Our World                                                                                                                  </td></tr><tr id='TBL-029-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-029-4-1' style='text-align:left; white-space:nowrap;'>in Data[<a href='main.html#X0-noauthor_coronavirus_nodate'>14</a>]                                                                                                                   </td></tr></table></div>  </td><td class='td11' id='TBL-000025-13-2' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-000025-13-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-000025-13-4' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-000025-13-5' style='text-align:center; white-space:nowrap;'>                                     Various Maps                                                           </td><td class='td11' id='TBL-000025-13-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000025-13-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-30' class='tabular'><colgroup id='TBL-30-1g'><col id='TBL-30-1'></colgroup><tr id='TBL-30-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-30-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000025-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-000025-13-1' style='text-align:left; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-29' class='tabular'><colgroup id='TBL-29-1g'><col id='TBL-29-1'></colgroup><tr id='TBL-29-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-29-1-1' style='text-align:left; white-space:nowrap;'>Our World                                                                                                                  </td></tr><tr id='TBL-029-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-029-4-1' style='text-align:left; white-space:nowrap;'>in Data[<a href='#X0-noauthor_coronavirus_nodate'>14</a>]                                                                                                                   </td></tr></table></div>  </td><td class='td11' id='TBL-000025-13-2' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-000025-13-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-000025-13-4' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-000025-13-5' style='text-align:center; white-space:nowrap;'>                                     Various Maps                                                           </td><td class='td11' id='TBL-000025-13-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000025-13-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-30' class='tabular'><colgroup id='TBL-30-1g'><col id='TBL-30-1'></colgroup><tr id='TBL-30-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-30-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
 </tr><tr id='TBL-030-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-030-4-1' style='text-align:center; white-space:nowrap;'>                                   Non-technical                                                        </td></tr></table></div>  </td><td class='td11' id='TBL-000025-13-8' style='text-align:center; white-space:nowrap;'>      5          </td><td class='td11' id='TBL-000025-13-9' style='text-align:center; white-space:nowrap;'>    1.5       </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000025-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000025-16-1' style='text-align:left; white-space:nowrap;'> Bhatia[<a href='main.html#X0-aatish_bhatia_covid_nodate'>15</a>]                                                                                                                         </td><td class='td11' id='TBL-0000025-16-2' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-0000025-16-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-0000025-16-4' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-0000025-16-5' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000025-16-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000025-16-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-31' class='tabular'><colgroup id='TBL-31-1g'><col id='TBL-31-1'></colgroup><tr id='TBL-31-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-31-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000025-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000025-16-1' style='text-align:left; white-space:nowrap;'> Bhatia[<a href='#X0-aatish_bhatia_covid_nodate'>15</a>]                                                                                                                         </td><td class='td11' id='TBL-0000025-16-2' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-0000025-16-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-0000025-16-4' style='text-align:center; white-space:nowrap;'> World  </td><td class='td11' id='TBL-0000025-16-5' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000025-16-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000025-16-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-31' class='tabular'><colgroup id='TBL-31-1g'><col id='TBL-31-1'></colgroup><tr id='TBL-31-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-31-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
 </tr><tr id='TBL-031-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-031-4-1' style='text-align:center; white-space:nowrap;'>                                   Non-technical                                                        </td></tr></table></div>  </td><td class='td11' id='TBL-0000025-16-8' style='text-align:center; white-space:nowrap;'>      2          </td><td class='td11' id='TBL-0000025-16-9' style='text-align:center; white-space:nowrap;'>     4        </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00000025-19-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000025-19-1' style='text-align:left; white-space:nowrap;'> iMEdB[<a href='main.html#X0-noauthor_covid19_nodate'>16</a>]                                                                                                                        </td><td class='td11' id='TBL-00000025-19-2' style='text-align:center; white-space:nowrap;'> Greece  </td><td class='td11' id='TBL-00000025-19-3' style='text-align:center; white-space:nowrap;'> Greece  </td><td class='td11' id='TBL-00000025-19-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-00000025-19-5' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-32' class='tabular'><colgroup id='TBL-32-1g'><col id='TBL-32-1'></colgroup><tr id='TBL-32-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-32-1-1' style='text-align:center; white-space:nowrap;'>                               (Greece/World) Cases/                                                 </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-00000025-19-' style='vertical-align:baseline;'><td class='td11' id='TBL-00000025-19-1' style='text-align:left; white-space:nowrap;'> iMEdB[<a href='#X0-noauthor_covid19_nodate'>16</a>]                                                                                                                        </td><td class='td11' id='TBL-00000025-19-2' style='text-align:center; white-space:nowrap;'> Greece  </td><td class='td11' id='TBL-00000025-19-3' style='text-align:center; white-space:nowrap;'> Greece  </td><td class='td11' id='TBL-00000025-19-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-00000025-19-5' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-32' class='tabular'><colgroup id='TBL-32-1g'><col id='TBL-32-1'></colgroup><tr id='TBL-32-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-32-1-1' style='text-align:center; white-space:nowrap;'>                               (Greece/World) Cases/                                                 </td>
 </tr><tr id='TBL-032-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-032-4-1' style='text-align:center; white-space:nowrap;'>                                 Deaths/Vaccination                                                    </td></tr></table></div>  </td><td class='td11' id='TBL-00000025-19-6' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-00000025-19-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-33' class='tabular'><colgroup id='TBL-33-1g'><col id='TBL-33-1'></colgroup><tr id='TBL-33-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-33-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
 </tr><tr id='TBL-033-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-033-4-1' style='text-align:center; white-space:nowrap;'>                                   Non-technical                                                        </td></tr></table></div>  </td><td class='td11' id='TBL-00000025-19-8' style='text-align:center; white-space:nowrap;'>      3          </td><td class='td11' id='TBL-00000025-19-9' style='text-align:center; white-space:nowrap;'>     5        </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000000025-22-' style='vertical-align:baseline;'><td class='td11' id='TBL-000000025-22-1' style='text-align:left; white-space:nowrap;'> UT[<a href='main.html#X0-noauthor_us_nodate'>17</a>]                                                                                                                             </td><td class='td11' id='TBL-000000025-22-2' style='text-align:center; white-space:nowrap;'>   US    </td><td class='td11' id='TBL-000000025-22-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-000000025-22-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-000000025-22-5' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000000025-22-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-34' class='tabular'><colgroup id='TBL-34-1g'><col id='TBL-34-1'></colgroup><tr id='TBL-34-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-34-1-1' style='text-align:center; white-space:nowrap;'>                                (US) Deaths: SEIR,                                                   </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-000000025-22-' style='vertical-align:baseline;'><td class='td11' id='TBL-000000025-22-1' style='text-align:left; white-space:nowrap;'> UT[<a href='#X0-noauthor_us_nodate'>17</a>]                                                                                                                             </td><td class='td11' id='TBL-000000025-22-2' style='text-align:center; white-space:nowrap;'>   US    </td><td class='td11' id='TBL-000000025-22-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-000000025-22-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-000000025-22-5' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-000000025-22-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-34' class='tabular'><colgroup id='TBL-34-1g'><col id='TBL-34-1'></colgroup><tr id='TBL-34-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-34-1-1' style='text-align:center; white-space:nowrap;'>                                (US) Deaths: SEIR,                                                   </td>
 </tr><tr id='TBL-034-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-034-4-1' style='text-align:center; white-space:nowrap;'>                                    Curve-fitting                                                        </td></tr></table></div>  </td><td class='td11' id='TBL-000000025-22-7' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-35' class='tabular'><colgroup id='TBL-35-1g'><col id='TBL-35-1'></colgroup><tr id='TBL-35-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-35-1-1' style='text-align:center; white-space:nowrap;'>                                    Technical/                                                         </td>
 </tr><tr id='TBL-035-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-035-4-1' style='text-align:center; white-space:nowrap;'>                                   Non-technical                                                        </td></tr></table></div>  </td><td class='td11' id='TBL-000000025-22-8' style='text-align:center; white-space:nowrap;'>      1          </td><td class='td11' id='TBL-000000025-22-9' style='text-align:center; white-space:nowrap;'>     5        </td>
-</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000000025-25-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000000025-25-1' style='text-align:left; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-36' class='tabular'><colgroup id='TBL-36-1g'><col id='TBL-36-1'></colgroup><tr id='TBL-36-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-36-1-1' style='text-align:left; white-space:nowrap;'>COVID-19                                                                                                                  </td></tr><tr id='TBL-036-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-036-4-1' style='text-align:left; white-space:nowrap;'>ForecastHub[<a href='main.html#X0-noauthor_viz_nodate'>18</a>]                                                                                                            </td></tr></table></div>  </td><td class='td11' id='TBL-0000000025-25-2' style='text-align:center; white-space:nowrap;'>   US    </td><td class='td11' id='TBL-0000000025-25-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-0000000025-25-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-0000000025-25-5' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000000025-25-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-37' class='tabular'><colgroup id='TBL-37-1g'><col id='TBL-37-1'></colgroup><tr id='TBL-37-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-37-1-1' style='text-align:center; white-space:nowrap;'>                                (US) Cases/Deaths:                                                   </td>
+</tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000000025-25-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000000025-25-1' style='text-align:left; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-36' class='tabular'><colgroup id='TBL-36-1g'><col id='TBL-36-1'></colgroup><tr id='TBL-36-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-36-1-1' style='text-align:left; white-space:nowrap;'>COVID-19                                                                                                                  </td></tr><tr id='TBL-036-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-036-4-1' style='text-align:left; white-space:nowrap;'>ForecastHub[<a href='#X0-noauthor_viz_nodate'>18</a>]                                                                                                            </td></tr></table></div>  </td><td class='td11' id='TBL-0000000025-25-2' style='text-align:center; white-space:nowrap;'>   US    </td><td class='td11' id='TBL-0000000025-25-3' style='text-align:center; white-space:nowrap;'>    /      </td><td class='td11' id='TBL-0000000025-25-4' style='text-align:center; white-space:nowrap;'>   /     </td><td class='td11' id='TBL-0000000025-25-5' style='text-align:center; white-space:nowrap;'>                                           /                                                                   </td><td class='td11' id='TBL-0000000025-25-6' style='text-align:center; white-space:nowrap;'> <!-- tex4ht:inline --><div class='tabular'> <table cellpadding='0' cellspacing='0' id='TBL-37' class='tabular'><colgroup id='TBL-37-1g'><col id='TBL-37-1'></colgroup><tr id='TBL-37-1-' style='vertical-align:baseline;'><td class='td00' id='TBL-37-1-1' style='text-align:center; white-space:nowrap;'>                                (US) Cases/Deaths:                                                   </td>
 </tr><tr id='TBL-037-4-' style='vertical-align:baseline;'><td class='td00' id='TBL-037-4-1' style='text-align:center; white-space:nowrap;'>                                   Various models                                                       </td></tr></table></div>  </td><td class='td11' id='TBL-0000000025-25-7' style='text-align:center; white-space:nowrap;'>                                       Technical                                                              </td><td class='td11' id='TBL-0000000025-25-8' style='text-align:center; white-space:nowrap;'>     3.5        </td><td class='td11' id='TBL-0000000025-25-9' style='text-align:center; white-space:nowrap;'>    3.5       </td>
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr></table>                                                                                                                                                                                                                                                                                                                                                                 </div>
 <a id='x1-10013r2'></a>
@@ -687,7 +687,7 @@ non-stationarity of the mean. The process of first order differencing is shown i
 </p>
 <p>The AR part of the model indicates that the data to be predicted is regressed on its own lagged
 values, and the MA part of the model shows that the regression error is a linear combination
-of error terms whose values occurred simultaneously at different times in the past[<a id='page.33'></a><a href='main.html#X0-box_time_2015'>19</a>]. An
+of error terms whose values occurred simultaneously at different times in the past[<a id='page.33'></a><a href='#X0-box_time_2015'>19</a>]. An
 <!-- l. 279 --><math display='inline' xmlns='https://www.w3.org/1998/Math/MathML'><mi mathvariant='italic'>ARIMA</mi> <mo form='prefix' fence='true'> (</mo><mrow><msup><mrow><mi>p</mi></mrow><mrow><mi>′</mi> </mrow> </msup> <mo class='MathClass-punc'>,</mo> <mi>q</mi></mrow><mo form='postfix' fence='true'>)</mo></math> model
 is represented mathematically in Equation <a href='#x1-13002r2'>2.2<!-- tex4ht:ref: eq:arma  --></a>.
 </p><br>
@@ -721,12 +721,12 @@ represents the error terms.
 <h4 class='subsectionHead'><span class='titlemark'>2.4.2 </span> <a id='x1-140002.4.2'></a>LSTM</h4>
 <p>Artificial Neural Networks (ANNs) can handle complex relationships, but they cannot capture historical
 dependencies in the data, and the performance of the models depends substantially on the features of
-the dataset[<a id='page.34'></a><a href='main.html#X0-parmezan_evaluation_2019'>20</a>]. A type of ANN called Recurrent Neural Network (RNN) was proposed to
+the dataset[<a id='page.34'></a><a href='#X0-parmezan_evaluation_2019'>20</a>]. A type of ANN called Recurrent Neural Network (RNN) was proposed to
 solve problems involving sequential data. In RNN, the current state is predicted based not
 only on the current input values, but also on previous hidden state values. However, RNNs
 suffer from the problem of gradient vanishing and gradient exploding, resulting in RNNs not
 being able to learn long-term dependencies from the data and can only be used for short-term
-prediction[<a href='main.html#X0-rizk_extreme_2019'>21</a>].
+prediction[<a href='#X0-rizk_extreme_2019'>21</a>].
 
 
 </p>
@@ -817,51 +817,51 @@ April 2021.
 </p>
 <ol class='enumerate1'>
 <li id='x1-16002x1' class='enumerate'><strong><span class='cmbx-10x-x-109'>Time Series Data (UK)</span></strong> - daily recorded case and death data for the UK. This dataset is
-provided by Public Health England[<a id='page.43'></a><a href='main.html#X0-noauthor_official_nodate'>12</a>]. It is time-series data containing daily new cases and
+provided by Public Health England[<a id='page.43'></a><a href='#X0-noauthor_official_nodate'>12</a>]. It is time-series data containing daily new cases and
 cumulative cases, daily new deaths and cumulative deaths in the UK. The case data is from
 31 January 2020 to 20 April 2021 (from the first recorded case) and the death data is from 6
 March 2020 to 20 April 2021 (from the first recorded death).
 </li>
 <li id='x1-16004x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Time Series Data (world)</span></strong> - the cumulative number of cases and deaths recorded in 275
 different countries around the world. This dataset is provided by the Center for Systems
-Science and Engineering (CSSE) at Johns Hopkins University (JHU)[<a href='main.html#X0-dong_interactive_2020'>13</a>]. It contains data
+Science and Engineering (CSSE) at Johns Hopkins University (JHU)[<a href='#X0-dong_interactive_2020'>13</a>]. It contains data
 from 22 January 2020 to 20 April 2021.
 </li>
 <li id='x1-16006x3' class='enumerate'><strong><span class='cmbx-10x-x-109'>Government Stringency</span></strong> - Oxford COVID-19 Government Response Tracker (OxCGRT).
 This dataset  is  provided  by  the  Blavatnik  School  of  Government  at  the  University  of
-Oxford[<a href='main.html#X0-hale_global_2021'>22</a>]. It considers school closures, workplace closures, cancellation of public events,
+Oxford[<a href='#X0-hale_global_2021'>22</a>]. It considers school closures, workplace closures, cancellation of public events,
 assembly restrictions, public transport, stay-at-home orders, internal movement restrictions,
 international travel controls and public information campaigns to provide a score from 0 to
 100 to measure the strictness of government responses. It contains data from 1 January 2020
 to 19 April 2021.
 </li>
 <li id='x1-16008x4' class='enumerate'><strong><span class='cmbx-10x-x-109'>Vaccination</span></strong>  -  the  proportion  of  the  population  who  have  received  their  first  dose  of
-COVID-19 vaccines. This dataset is provided by Public Health England[<a href='main.html#X0-noauthor_official_nodate'>12</a>] and contains data
+COVID-19 vaccines. This dataset is provided by Public Health England[<a href='#X0-noauthor_official_nodate'>12</a>] and contains data
 from 10 January 2021 to 19 April 2021.
 
 
 </li>
 <li id='x1-16010x5' class='enumerate'><strong><span class='cmbx-10x-x-109'>Hospital Admissions</span></strong> - the number of daily COVID-19 hospital admissions. This dataset
-is provided by Public Health England[<a href='main.html#X0-noauthor_official_nodate'>12</a>] and contains data from 23 March 2020 to 14 April
+is provided by Public Health England[<a href='#X0-noauthor_official_nodate'>12</a>] and contains data from 23 March 2020 to 14 April
 2021.
 </li>
 <li id='x1-16012x6' class='enumerate'><strong><span class='cmbx-10x-x-109'>Testing</span></strong> - the number of COVID-19 tests performed per day. This dataset is provided by
-Public Health England[<a id='page.44'></a><a href='main.html#X0-noauthor_official_nodate'>12</a>] and contains data from 31 March 2020 to 19 April 2021.
+Public Health England[<a id='page.44'></a><a href='#X0-noauthor_official_nodate'>12</a>] and contains data from 31 March 2020 to 19 April 2021.
 </li>
 <li id='x1-16014x7' class='enumerate'><strong><span class='cmbx-10x-x-109'>Ventilators</span></strong> - the daily number of COVID-19 occupied hospital beds with medical ventilators.
-This dataset is provided by Public Health England[<a href='main.html#X0-noauthor_official_nodate'>12</a>] and contains data from 2 April 2020
+This dataset is provided by Public Health England[<a href='#X0-noauthor_official_nodate'>12</a>] and contains data from 2 April 2020
 to 19 April 2021.
 </li>
 <li id='x1-16016x8' class='enumerate'><strong><span class='cmbx-10x-x-109'>R0</span></strong> - the reproduction rate of COVID-19 infections in the UK. This dataset is provided by
-Francisco Arroyo et al[<a href='main.html#X0-arroyo-marioli_tracking_2021'>23</a>]. It contains data from 3 March 2020 to 17 April 2021.
+Francisco Arroyo et al[<a href='#X0-arroyo-marioli_tracking_2021'>23</a>]. It contains data from 3 March 2020 to 17 April 2021.
 </li>
 <li id='x1-16018x9' class='enumerate'><strong><span class='cmbx-10x-x-109'>UTLA</span></strong> -  the  latest  cumulative  COVID-19  cases  and  deaths  data  per  100,000  residential
 population for the different Upper Tier Local Authorities (UTLA) in the UK. This dataset is
-provided by Public Health England[<a href='main.html#X0-noauthor_official_nodate'>12</a>] and contains data as of 19 April 2021.
+provided by Public Health England[<a href='#X0-noauthor_official_nodate'>12</a>] and contains data as of 19 April 2021.
 </li>
 <li id='x1-16020x10' class='enumerate'><strong><span class='cmbx-10x-x-109'>Boundaries</span></strong> - the digital vector boundaries for countries and unitary authorities in the UK as
 of December 2019. This data is provided by the Office for National Statistics’ Open Geography
-Portal[<a href='main.html#X0-noauthor_counties_nodate'>24</a>].</li></ol>
+Portal[<a href='#X0-noauthor_counties_nodate'>24</a>].</li></ol>
 <p>Table <a href='#x1-16021r1'>3.1<!-- tex4ht:ref: tab:data  --></a> shows a description and usage of the different data above.
 </p>
 <div class='table'>
@@ -895,7 +895,7 @@ Map Page</div>    </td>
 </div>
 <h3 class='sectionHead'><span class='titlemark'>3.2 </span> <a id='x1-170003.2'></a>Data Pre-processing</h3>
 <p>Real-world data can be inconsistent and complex; therefore, a combination of different data pre-processing
-methods need to be utilised before we can analyse the data[<a id='page.47'></a><a href='main.html#X0-ramirez-gallego_survey_2017'>25</a>]. In this section, I will describe the methods
+methods need to be utilised before we can analyse the data[<a id='page.47'></a><a href='#X0-ramirez-gallego_survey_2017'>25</a>]. In this section, I will describe the methods
 I used when pre-processing data for the LSTM model, both the original time series data and additional
 features data.
 </p>
@@ -910,7 +910,7 @@ data.
 </p>
 <ol class='enumerate1'>
 <li id='x1-18002x1' class='enumerate'><strong><span class='cmbx-10x-x-109'>Differencing</span></strong>: Differencing can be used to remove temporal dependencies, including trends
-and seasonality. It removes the level changes in the time series to stabilise the mean[<a href='main.html#X0-hyndman_forecasting_2018'>26</a>, p. 215].
+and seasonality. It removes the level changes in the time series to stabilise the mean[<a href='#X0-hyndman_forecasting_2018'>26</a>, p. 215].
 Differencing is performed by subtracting the value of the previous time step from the value of
 the current time step, as shown in Equation <a href='#x1-18003r1'>3.1<!-- tex4ht:ref: eq:differencing  --></a>.
 <table class='equation'><tr><td><a id='x1-18003r1'></a>
@@ -1015,10 +1015,10 @@ model.
 extension of Stochastic Gradient Descent(SGD), proposed by Diederik Kingma and Jimmy Ba in 2015.
 Adam computes individual adaptive learning rates for different parameters from estimates of the first and
 second moments of the gradient, which in practice can provide better optimisation results than other
-stochastic optimisation methods[<a id='page.57'></a><a href='main.html#X0-kingma_adam_2014'>27</a>].
+stochastic optimisation methods[<a id='page.57'></a><a href='#X0-kingma_adam_2014'>27</a>].
 </p>
 <p>Mean Square Error (MSE) is used as the loss function. MSE is the most commonly used regression loss
-function and is the sum of the squared distances between the actual values and the predicted values[<a href='main.html#X0-noauthor_mean_2021-2'>28</a>], as
+function and is the sum of the squared distances between the actual values and the predicted values[<a href='#X0-noauthor_mean_2021-2'>28</a>], as
 shown in Equation <a href='#x1-24001r3'>3.3<!-- tex4ht:ref: eq:mse  --></a>.
 </p>
 <table class='equation'><tr><td><a id='x1-24001r3'></a>
@@ -1033,13 +1033,13 @@ shown in Equation <a href='#x1-24001r3'>3.3<!-- tex4ht:ref: eq:mse  --></a>.
 <h5 class='subsubsectionHead'><span class='titlemark'>3.3.1.3 </span> <a id='x1-250003.3.1.3'></a>Early Stopping</h5>
 <p>One of the main challenges when working with deep learning models is how long to train them.
 Undertraining means that the model will underfit the training and testing data; however, overtraining
-means that the model will overfit the training dataset and perform poorly on the testing set[<a href='main.html#X0-prechelt_early_1998'>29</a>].
+means that the model will overfit the training dataset and perform poorly on the testing set[<a href='#X0-prechelt_early_1998'>29</a>].
 Underfitting can be addressed by improving hyperparameters and increasing training epochs, and
 
 
 overfitting needs to be addressed by regularisation. Early stopping is one of the oldest and most widely
 used forms of neural network regularisation, and it can provide an effective and simple way to avoid
-overfitting[<a href='main.html#X0-goodfellow_deep_2016'>30</a>, p. 247].
+overfitting[<a href='#X0-goodfellow_deep_2016'>30</a>, p. 247].
 </p>
 <p>In my approach, the loss function values on the training data are monitored and if the model
 performance does not improve within 10 epochs, the model will stop training and the best performing
@@ -1054,7 +1054,7 @@ the training process, some outputs of the layers are randomly ignored or dropped
 effect of making the model less complex and the remaining units are forced to probabilistically
 take on more or less responsibility for the inputs. This would make the model more robust by
 not allowing the connected network layers to co-adapt to correct the errors from the prior
-layers[<a id='page.58'></a><a href='main.html#X0-srivastava_dropout_2014'>31</a>].
+layers[<a id='page.58'></a><a href='#X0-srivastava_dropout_2014'>31</a>].
 </p>
 <p>In my approach, each LSTM layer is followed by a dropout layer with a dropout rate of 0.2, meaning
 that the LSTM layer is only trained on 80% of the randomly selected units.
@@ -1135,25 +1135,25 @@ searches.
 unit root in the time series sample, which implies that the time series data is non-stationary.
 The ADF statistic used in the test is a negative number; the larger the negative number, the
 stronger the rejection of the null hypothesis or the acceptance of the alternative hypothesis,
-which implies that the data is stationary[<a id='page.60'></a><a href='main.html#X0-mushtaq_augmented_2011'>32</a>]. It is used to select the optimal d value that
+which implies that the data is stationary[<a id='page.60'></a><a href='#X0-mushtaq_augmented_2011'>32</a>]. It is used to select the optimal d value that
 makes the data most stationary.
 </li>
 <li id='x1-30004x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Bayesian Information Criterion (BIC)</span></strong>: It is a criterion used to select a model from a
 limited set of models; the lower the BIC value the better the model performs. When training
 a model, adding parameters can increase the likelihood, but it can also lead to overfitting.
 BIC attempts to solve this problem by introducing a penalty term for both the number of
-model parameters and the number of samples used to train the model[<a id='page.61'></a><a href='main.html#X0-schwarz_estimating_1978'>33</a>]. It is used to select
+model parameters and the number of samples used to train the model[<a id='page.61'></a><a href='#X0-schwarz_estimating_1978'>33</a>]. It is used to select
 the optimal p and q values that minimise BIC.</li></ol>
 <p>
 </p>
 
 <h5 class='subsubsectionHead'><span class='titlemark'>3.3.2.3 </span> <a id='x1-310003.3.2.3'></a>Stepwise</h5>
 <p>When performing a grid search, a brute-force approach iterates over every combination of parameters and
-can take a long time. Hyndman and Khandakar proposed a stepwise approach[<a href='main.html#X0-hyndman_automatic_2008'>34</a>]. It starts with four
+can take a long time. Hyndman and Khandakar proposed a stepwise approach[<a href='#X0-hyndman_automatic_2008'>34</a>]. It starts with four
 possible models, selects the model with the smallest BIC as the current best model, and then considers a
 number of other models, updating the current best model whenever a model with a lower BIC is found. It
 reduces processing time by adding intelligent procedures for testing model orders and does not require
-testing all models[<a href='main.html#X0-smith_pmdarima_2017'>35</a>].
+testing all models[<a href='#X0-smith_pmdarima_2017'>35</a>].
 </p>
 <p>In my approach, the stepwise method is used to perform the grid search.
 </p>
@@ -1258,7 +1258,7 @@ getting better or worse.
 <p>In my approach, I plotted not only the curves for different countries, but also the trajectories of different
 countries by plotting the logarithmic scale of the number of new cases or deaths against the total number
 of cases or deaths, and it can provide us with a clear overview of the trajectories of different
-countries[<a id='page.67'></a><a href='main.html#X0-aatish_bhatia_covid_nodate'>15</a>].
+countries[<a id='page.67'></a><a href='#X0-aatish_bhatia_covid_nodate'>15</a>].
 </p>
 <p>
 </p>
@@ -1283,7 +1283,7 @@ countries.
 </p>
 
 <h5 class='subsubsectionHead'><span class='titlemark'>3.4.2.4 </span> <a id='x1-400003.4.2.4'></a>Reference Countries</h5>
-<p>Johns Hopkins University (JHU) has provided data for 275 countries around the world[<a id='page.68'></a><a href='main.html#X0-dong_interactive_2020'>13</a>], however,
+<p>Johns Hopkins University (JHU) has provided data for 275 countries around the world[<a id='page.68'></a><a href='#X0-dong_interactive_2020'>13</a>], however,
 if we plot each country in the same way, the charts would become messy and lack order of
 significance.
 </p>
@@ -1292,7 +1292,7 @@ thinner grey lines. The seven countries are: the United Kingdom (the focus of th
 France, Germany (European countries with a similar population size to the UK); the United States and
 China (which played important roles at different stages of the pandemic).
 </p>
-<p>Due to the nature of Plotly charts[<a href='main.html#X0-noauthor_plotly_nodate'>36</a>], users will also have the option to zoom in to see more detailed
+<p>Due to the nature of Plotly charts[<a href='#X0-noauthor_plotly_nodate'>36</a>], users will also have the option to zoom in to see more detailed
 trajectories or choose to view each individual country.
 </p>
 <p>
@@ -1300,7 +1300,7 @@ trajectories or choose to view each individual country.
 
 <h5 class='subsubsectionHead'><span class='titlemark'>3.4.2.5 </span> <a id='x1-410003.4.2.5'></a>Adjustments</h5>
 <p>To make the chart neater and to improve usability, all country names longer than the United
-Kingdom will be replaced with their ISO 3166-1 alpha-3 standard[<a href='main.html#X0-noauthor_iso_2020'>37</a>] three-letter country
+Kingdom will be replaced with their ISO 3166-1 alpha-3 standard[<a href='#X0-noauthor_iso_2020'>37</a>] three-letter country
 code.
 
 
@@ -1314,13 +1314,13 @@ COVID-19 infections and fatalities. Not only does it help citizens to understand
 it can also inform local government policies.
 </p>
 <p>In my approach, I have chosen to map the cumulative cases and deaths data per 100,000
-residential population for different Upper Tier Local Authorities (UTLA)[<a id='page.69'></a><a href='main.html#X0-noauthor_counties_nodate'>24</a>]. This has the
+residential population for different Upper Tier Local Authorities (UTLA)[<a id='page.69'></a><a href='#X0-noauthor_counties_nodate'>24</a>]. This has the
 advantage that it takes into account not only the total number of cases or deaths, but also the
 population density, and therefore provides a more accurate regional overview. The maps of
 infections and fatalities are presented in different colours, and are designed to be interactive and
 easy-to-use.
 </p>
-<p>Notably, I also created a mapbox[<a href='main.html#X0-noauthor_maps_nodate'>38</a>] style to match the background colour of the maps to the
+<p>Notably, I also created a mapbox[<a href='#X0-noauthor_maps_nodate'>38</a>] style to match the background colour of the maps to the
 dashboard, thus improving the consistency of the system.
 </p>
 <p>
@@ -1338,8 +1338,8 @@ principles I followed when designing the dashboard.
 
 
 <h4 class='subsectionHead'><span class='titlemark'>3.5.1 </span> <a id='x1-440003.5.1'></a>User Experience (UX)</h4>
-<p>User Experience (UX) describes the user’s interaction and experience with a system[<a id='page.70'></a><a href='main.html#X0-experience_definition_nodate'>39</a>]. When designing
-the dashboard, I followed 5 UX principles[<a href='main.html#X0-noauthor_5_nodate'>40</a>].
+<p>User Experience (UX) describes the user’s interaction and experience with a system[<a id='page.70'></a><a href='#X0-experience_definition_nodate'>39</a>]. When designing
+the dashboard, I followed 5 UX principles[<a href='#X0-noauthor_5_nodate'>40</a>].
 </p>
 <p>
 </p>
@@ -1347,7 +1347,7 @@ the dashboard, I followed 5 UX principles[<a href='main.html#X0-noauthor_5_nodat
 <h5 class='subsubsectionHead'><span class='titlemark'>3.5.1.1 </span> <a id='x1-450003.5.1.1'></a>Hierarchy</h5>
 <p>The first hierarchy relates to the information architecture, i.e. how the content is organised throughout the
 site; the visual hierarchy is how the designer helps the user navigate more easily through a section or
-page[<a href='main.html#X0-noauthor_5_nodate'>40</a>].
+page[<a href='#X0-noauthor_5_nodate'>40</a>].
 </p>
 <p>In my dashboard, there is a sidebar on the left hand side which contains the most basic and essential
 information, including the latest figures for the UK, last updated times, cases and deaths curves, it also
@@ -1382,13 +1382,13 @@ data are consistent throughout the system.
 <li id='x1-46004x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Fonts and Styles</span></strong>: The style of each individual chart and the fonts used to present the
 different titles and information are consistent.
 </li>
-<li id='x1-46006x3' class='enumerate'><strong><span class='cmbx-10x-x-109'>Navigation Toolbars</span></strong>: Due to the nature of Plotly charts[<a id='page.73'></a><a href='main.html#X0-noauthor_plotly_nodate'>36</a>], each chart has the same
+<li id='x1-46006x3' class='enumerate'><strong><span class='cmbx-10x-x-109'>Navigation Toolbars</span></strong>: Due to the nature of Plotly charts[<a id='page.73'></a><a href='#X0-noauthor_plotly_nodate'>36</a>], each chart has the same
 navigation toolbar, including features such as zooming and area selection.</li></ol>
 <p>
 </p>
 
 <h5 class='subsubsectionHead'><span class='titlemark'>3.5.1.3 </span> <a id='x1-470003.5.1.3'></a>Confirmation</h5>
-<p>Error prevention is another important goal when designing a system[<a href='main.html#X0-noauthor_5_nodate'>40</a>]. In my dashboard, confirmation is
+<p>Error prevention is another important goal when designing a system[<a href='#X0-noauthor_5_nodate'>40</a>]. In my dashboard, confirmation is
 achieved in two ways:
 </p>
 <p>
@@ -1420,7 +1420,7 @@ resetting the axes.
 <p>
 </p>
 <ol class='enumerate1'>
-<li id='x1-49002x1' class='enumerate'><strong><span class='cmbx-10x-x-109'>Deployment</span></strong>: The dashboard is deployed on the Amazon Web Services (AWS)[<a id='page.74'></a><a href='main.html#X0-noauthor_amazon_nodate'>41</a>] Elastic
+<li id='x1-49002x1' class='enumerate'><strong><span class='cmbx-10x-x-109'>Deployment</span></strong>: The dashboard is deployed on the Amazon Web Services (AWS)[<a id='page.74'></a><a href='#X0-noauthor_amazon_nodate'>41</a>] Elastic
 Beanstalk, which provides a stable connection with low response times to the system.
 </li>
 <li id='x1-49004x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>User Interface (UI)</span></strong>: The user interface is logically designed and uses contrasting colours to
@@ -1474,11 +1474,11 @@ that the model has not seen before, using three evaluation metrics:
 </p>
 <ol class='enumerate1'>
 <li id='x1-52004x1' class='enumerate'><strong><span class='cmbx-10x-x-109'>Mean Absolute Error (MAE)</span></strong>: the average value of absolute errors between predicted and
-actual data[<a id='page.78'></a><a href='main.html#X0-noauthor_mean_2021-1'>42</a>]. It is the average error of daily model predictions. The calculation is shown in
+actual data[<a id='page.78'></a><a href='#X0-noauthor_mean_2021-1'>42</a>]. It is the average error of daily model predictions. The calculation is shown in
 Equation <a href='#x1-52009r11'>3.11<!-- tex4ht:ref: eq:mae  --></a>.
 </li>
 <li id='x1-52006x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Mean Absolute Percentage Error (MAPE)</span></strong>: the average percentage value of absolute
-errors between  predicted  and  actual  data[<a href='main.html#X0-noauthor_mean_2021'>43</a>].  It  is  the  average  accuracy  of  daily  model
+errors between  predicted  and  actual  data[<a href='#X0-noauthor_mean_2021'>43</a>].  It  is  the  average  accuracy  of  daily  model
 predictions over the prediction period. The calculation is shown in Equation <a href='#x1-52010r12'>3.12<!-- tex4ht:ref: eq:mape  --></a>.
 </li>
 <li id='x1-52008x3' class='enumerate'><strong><span class='cmbx-10x-x-109'>Percentage Mean Absolute Error (PMAE)</span></strong>: the ratio of average absolute error between
@@ -1614,9 +1614,9 @@ results were  evaluated  as  to  how  accurately  technical  and  non-technical 
 obtaining the correct information from the dashboard.
 </li>
 <li id='x1-56004x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Usability</span></strong>: how usable the system is. This set of questions follows the criteria of the System
-Usability Scale (SUS), developed by John Brooke in 1986[<a id='page.85'></a><a href='main.html#X0-brooke_sus_1995'>44</a>], which has provided us with
+Usability Scale (SUS), developed by John Brooke in 1986[<a id='page.85'></a><a href='#X0-brooke_sus_1995'>44</a>], which has provided us with
 a quick and valid tool to evaluate three aspects of a system: effectiveness, efficiency and
-satisfaction[<a href='main.html#X0-noauthor_system_2021'>45</a>].</li></ol>
+satisfaction[<a href='#X0-noauthor_system_2021'>45</a>].</li></ol>
 
 
 <br><br><h2 class='chapterHead'><span class='titlemark'>Chapter 4</span><br><a id='x1-570004'></a>Development</h2>
@@ -1625,7 +1625,7 @@ presented in Section <a href='#x1-150003'>3<!-- tex4ht:ref: chap:methodology  --
 </p>
 
 <h3 class='sectionHead'><span class='titlemark'>4.1 </span> <a id='x1-580004.1'></a>Data Pre-processing</h3>
-<p>The implementation was based on Numpy[<a id='page.86'></a><a href='main.html#X0-noauthor_numpy_nodate'>46</a>] and Pandas[<a href='main.html#X0-noauthor_pandas_nodate'>47</a>]. Figure <a href='#x1-58001r1'>4.1<!-- tex4ht:ref: fig:processing  --></a> shows the original
+<p>The implementation was based on Numpy[<a id='page.86'></a><a href='#X0-noauthor_numpy_nodate'>46</a>] and Pandas[<a href='#X0-noauthor_pandas_nodate'>47</a>]. Figure <a href='#x1-58001r1'>4.1<!-- tex4ht:ref: fig:processing  --></a> shows the original
 data after pre-processing as described in Section <a href='#x1-180003.2.1'>3.2.1<!-- tex4ht:ref: sub:original  --></a>; Figure (<a href='#x1-58003r2'>4.2<!-- tex4ht:ref: fig:case  --></a>)-(<a href='#x1-58005r3'>4.3<!-- tex4ht:ref: fig:death  --></a>) show the additional
 features data for cases and deaths forecasting after pre-processing as described in Section
 <a href='#x1-190003.2.2'>3.2.2<!-- tex4ht:ref: sub:feature  --></a>.
@@ -1683,7 +1683,7 @@ features data for cases and deaths forecasting after pre-processing as described
 </p>
 
 <h5 class='subsubsectionHead'><span class='titlemark'>4.2.1.1 </span> <a id='x1-610004.2.1.1'></a>Structure</h5>
-<p>The LSTM model was developed with TensorFlow[<a id='page.95'></a><a href='main.html#X0-noauthor_tensorflow_nodate'>48</a>]. Figure <a href='#x1-61001r4'>4.4<!-- tex4ht:ref: fig:summary  --></a> shows a summary of the model and it
+<p>The LSTM model was developed with TensorFlow[<a id='page.95'></a><a href='#X0-noauthor_tensorflow_nodate'>48</a>]. Figure <a href='#x1-61001r4'>4.4<!-- tex4ht:ref: fig:summary  --></a> shows a summary of the model and it
 has the following structure:
 </p>
 
@@ -1726,7 +1726,7 @@ model.
 
 
 </figure>
-<p>The training process was carried out on a NVIDIA GeForce GTX 1050 Graphics Card[<a id='page.101'></a><a href='main.html#X0-noauthor_geforce_nodate'>49</a>].
+<p>The training process was carried out on a NVIDIA GeForce GTX 1050 Graphics Card[<a id='page.101'></a><a href='#X0-noauthor_geforce_nodate'>49</a>].
 </p>
 
 <h5 class='subsubsectionHead'><span class='titlemark'>4.2.1.3 </span> <a id='x1-630004.2.1.3'></a>Feature Experiments</h5>
@@ -1938,7 +1938,7 @@ between having historical cases data and R0 as a feature of the deaths forecasti
 
 
 <h4 class='subsectionHead'><span class='titlemark'>4.2.2 </span> <a id='x1-650004.2.2'></a>ARIMA</h4>
-<p>The ARIMA model was based on pmdarima[<a id='page.106'></a><a href='main.html#X0-smith_pmdarima_2017'>35</a>]. In line with the methods described in Section <a href='#x1-280003.3.2'>3.3.2<!-- tex4ht:ref: sub:arima  --></a>, Table
+<p>The ARIMA model was based on pmdarima[<a id='page.106'></a><a href='#X0-smith_pmdarima_2017'>35</a>]. In line with the methods described in Section <a href='#x1-280003.3.2'>3.3.2<!-- tex4ht:ref: sub:arima  --></a>, Table
 <a href='#x1-65007r2'>4.2<!-- tex4ht:ref: tab:arima  --></a> contains the grid search results for (p,d,q) values over the ten different timestamps for cases and deaths
 forecasting with ARIMA model, where the ten timestamps are consistent to the ones used in the global
 evaluation in Experiment <a href='#x1-630004.2.1.3'>4.2.1.3<!-- tex4ht:ref: sub:exper  --></a>.
@@ -1978,7 +1978,7 @@ used in the LSTM model for data pre-processing.
 <li id='x1-65006x3' class='enumerate'>The p and q values for deaths forecasting tend to be larger then the values for cases forecasting.</li></ol>
 
 <h3 class='sectionHead'><span class='titlemark'>4.3 </span> <a id='x1-660004.3'></a>Visualisation</h3>
-<p>The visualisation was based on Plotly[<a id='page.109'></a><a href='main.html#X0-noauthor_plotly_nodate'>36</a>]. Figure (<a href='#x1-66001r6'>4.6<!-- tex4ht:ref: fig:uk  --></a>)-(<a href='#x1-66005r8'>4.8<!-- tex4ht:ref: fig:map  --></a>) contain screenshots of some charts developed
+<p>The visualisation was based on Plotly[<a id='page.109'></a><a href='#X0-noauthor_plotly_nodate'>36</a>]. Figure (<a href='#x1-66001r6'>4.6<!-- tex4ht:ref: fig:uk  --></a>)-(<a href='#x1-66005r8'>4.8<!-- tex4ht:ref: fig:map  --></a>) contain screenshots of some charts developed
 with the visualisation strategies described in Section <a href='#x1-340003.4'>3.4<!-- tex4ht:ref: sec:visualisation  --></a>.
 </p>
 <figure class='figure'>
@@ -2024,7 +2024,7 @@ with the visualisation strategies described in Section <a href='#x1-340003.4'>3.
 
 </figure>
 <h3 class='sectionHead'><span class='titlemark'>4.4 </span> <a id='x1-670004.4'></a>Dashboard</h3>
-<p>The dashboard was developed with Dash[<a id='page.118'></a><a href='main.html#X0-noauthor_dash_nodate'>50</a>] and was deployed on AWS Elastic Beanstalk[<a href='main.html#X0-noauthor_amazon_nodate'>41</a>]. Figure <a href='#x1-67001r9'>4.9<!-- tex4ht:ref: fig:dashboard  --></a>
+<p>The dashboard was developed with Dash[<a id='page.118'></a><a href='#X0-noauthor_dash_nodate'>50</a>] and was deployed on AWS Elastic Beanstalk[<a href='#X0-noauthor_amazon_nodate'>41</a>]. Figure <a href='#x1-67001r9'>4.9<!-- tex4ht:ref: fig:dashboard  --></a>
 contains a screenshot of the UK page in the dashboard.
 </p>
 <figure class='figure'>
@@ -2324,7 +2324,7 @@ features used for cases forecasting were not as influential.</li></ol>
 <p>As described in Section <a href='#x1-560003.6.2'>3.6.2<!-- tex4ht:ref: sub:question  --></a>, a questionnaire with two sets of questions was used to assess the dashboard
 from two aspects: information and usability. Fifteen participants were recruited to complete the
 questionnaire, including five from non-technical backgrounds. Although this is not a large sample size,
-according to Nielsen Norman Group[<a id='page.150'></a><a href='main.html#X0-experience_how_nodate'>51</a>], a sample of only five people can provide enough insights, so the
+according to Nielsen Norman Group[<a id='page.150'></a><a href='#X0-experience_how_nodate'>51</a>], a sample of only five people can provide enough insights, so the
 results of the questionnaire should be sufficiently valuable. The complete questionnaire can be found in
 Appendix <a href='#x1-86000A'>A<!-- tex4ht:ref: appendix:A  --></a>.
 </p>
@@ -2389,11 +2389,11 @@ question.
 
 </figure>
 <h4 class='subsectionHead'><span class='titlemark'>5.2.2 </span> <a id='x1-780005.2.2'></a>Usability</h4>
-<p>The questions in this section followed the System Usability Scale (SUS) standard[<a id='page.154'></a><a href='main.html#X0-brooke_sus_1995'>44</a>]. It has 10
+<p>The questions in this section followed the System Usability Scale (SUS) standard[<a id='page.154'></a><a href='#X0-brooke_sus_1995'>44</a>]. It has 10
 standard questions that measures the usability of a system in three aspects: effectiveness,
 efficiency and satisfaction; each question will be answered using Likert scale (linear rating
 scale ranging from 1 representing “strong disagree” to 5 representing “strongly agree”). The
-SUS standard has proven valid and effective[<a href='main.html#X0-noauthor_system_2021'>45</a>], and Figure <a href='#x1-78001r10'>5.10<!-- tex4ht:ref: fig:sec2  --></a> shows the responses to each
+SUS standard has proven valid and effective[<a href='#X0-noauthor_system_2021'>45</a>], and Figure <a href='#x1-78001r10'>5.10<!-- tex4ht:ref: fig:sec2  --></a> shows the responses to each
 question.
 </p>
 <figure class='figure'>
@@ -2413,7 +2413,7 @@ question.
 <p>We can tell from the responses that most participants were satisfied with the system and found it easy
 to use.
 </p>
-<p>There is also a quantitative measure to interpret the responses: the SUS Score[<a id='page.157'></a><a href='main.html#X0-noauthor_measuring_2017'>52</a>], which can be
+<p>There is also a quantitative measure to interpret the responses: the SUS Score[<a id='page.157'></a><a href='#X0-noauthor_measuring_2017'>52</a>], which can be
 calculated as shown in Equation (<a href='#x1-78003r1'>5.1<!-- tex4ht:ref: eq:sus0  --></a>)-(<a href='#x1-78005r3'>5.3<!-- tex4ht:ref: eq:sus1  --></a>).
 </p>
 <p>
@@ -2427,7 +2427,7 @@ calculated as shown in Equation (<a href='#x1-78003r1'>5.1<!-- tex4ht:ref: eq:su
   </mtd></mtr></mtable></math><br>
 <p>The total score is 100 and each question is weighted 10 points. The rationale behind the calculation is
 intuitive: standardise the calculation scale for positive and negative questions, sum them up and
-scale to 100. Based on a research[<a href='main.html#X0-bangor_determining_2009'>53</a>], the SUS scores can be interpreted as shown in Table
+scale to 100. Based on a research[<a href='#X0-bangor_determining_2009'>53</a>], the SUS scores can be interpreted as shown in Table
 <a href='#x1-78006r2'>5.2<!-- tex4ht:ref: tab:sus  --></a>.
 </p>
 <div class='table'>
@@ -2444,7 +2444,7 @@ scale to 100. Based on a research[<a href='main.html#X0-bangor_determining_2009'
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td></tr><tr id='TBL-0000043-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-0000043-16-1' style='text-align:center; white-space:nowrap;'>                                        <span class='cmmi-10x-x-109'>&lt;</span>51                                                                </td><td class='td11' id='TBL-0000043-16-2' style='text-align:center; white-space:nowrap;'>   E     </td><td class='td11' id='TBL-0000043-16-3' style='text-align:center; white-space:nowrap;'>       Awful           </td>
 </tr><tr class='hline'><td><hr></td><td><hr></td><td><hr></td></tr></table></div><a id='x1-78006r2'></a>
 <a id='x1-78007'></a>
-<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Table 5.2:: </span></span><span class='content'><span class='cmr-10'>Interpretation of SUS scores[</span><a href='main.html#X0-bangor_determining_2009'><span class='cmr-10'>53</span></a><span class='cmr-10'>].</span>                                                                      
+<figcaption class='caption'><span class='id'>  <span class='cmbx-10'>Table 5.2:: </span></span><span class='content'><span class='cmr-10'>Interpretation of SUS scores[</span><a href='#X0-bangor_determining_2009'><span class='cmr-10'>53</span></a><span class='cmr-10'>].</span>                                                                      
 </span></figcaption><!-- tex4ht:label?: x1-78006r5.2  -->
 
 
@@ -2578,11 +2578,11 @@ in section <a href='#x1-670004.4'>4.4<!-- tex4ht:ref: sec:board  --></a> and I h
 </p>
 <ol class='enumerate1'>
 <li id='x1-83008x1' class='enumerate'><strong><span class='cmbx-10x-x-109'>Model Selection</span></strong>: I started out building various traditional supervised learning models using
-Scikit-learn[<a id='page.164'></a><a href='main.html#X0-noauthor_scikit-learn_nodate'>54</a>], as well as a time series-focused method called Prophet[<a href='main.html#X0-noauthor_prophet_nodate'>55</a>], open-sourced by
+Scikit-learn[<a id='page.164'></a><a href='#X0-noauthor_scikit-learn_nodate'>54</a>], as well as a time series-focused method called Prophet[<a href='#X0-noauthor_prophet_nodate'>55</a>], open-sourced by
 Facebook, neither of which provided good results; I then conducted other experiments as well
 before deciding to use LSTM and ARIMA models.
 </li>
-<li id='x1-83010x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Map Visualisation</span></strong>: According to section <a href='#x1-420003.4.3'>3.4.3<!-- tex4ht:ref: sub:map  --></a>, I first visualised the map using Kepler.gl[<a href='main.html#X0-noauthor_large-scale_nodate'>56</a>],
+<li id='x1-83010x2' class='enumerate'><strong><span class='cmbx-10x-x-109'>Map Visualisation</span></strong>: According to section <a href='#x1-420003.4.3'>3.4.3<!-- tex4ht:ref: sub:map  --></a>, I first visualised the map using Kepler.gl[<a href='#X0-noauthor_large-scale_nodate'>56</a>],
 Uber’s open sourced map visualisation tool, with promising results. Unfortunately, the map
 could not be integrated into the dashboard due to some Python packages conflicts and I had
 to restart the process and build the maps with Plotly (and learned how to do so). However,
@@ -2592,7 +2592,7 @@ the work produced with Kepler.gl was not just abandoned, it was proceeded with s
 and is available at: (COVID-19 Infections Map, with a screenshot attached in Appendix <a href='#x1-87000B'>B<!-- tex4ht:ref: appendix:B  --></a>)
 <a href='https://covid-map.shangjielyu.com/' class='url'><span class='cmtt-10x-x-109'>https://covid-map.shangjielyu.com/</span></a>
 </li>
-<li id='x1-83012x3' class='enumerate'><strong><span class='cmbx-10x-x-109'>Deployment</span></strong>:  The  project  was  first  deployed  on  Heroku[<a id='page.165'></a><a href='main.html#X0-noauthor_cloud_nodate'>57</a>],  but  Heroku  only  allowed
+<li id='x1-83012x3' class='enumerate'><strong><span class='cmbx-10x-x-109'>Deployment</span></strong>:  The  project  was  first  deployed  on  Heroku[<a id='page.165'></a><a href='#X0-noauthor_cloud_nodate'>57</a>],  but  Heroku  only  allowed
 programs that could be started within a 30 second run-time limit; as the project became
 larger, I had to find alternative deployment methods and eventually opted for AWS.</li></ol>
 <p>
@@ -2606,7 +2606,7 @@ thoughts.
 <p>We are getting so used to the convenience offered by various predictive models and dashboards that we
 may not even realise how incredible these efforts are. I have had some conversations with the team behind
 the Public Health England’s Developers API, which was one of my main data sources. At one point I
-couldn’t resolve a connection error with the API and raised an issue on their official GitHub repository[<a href='main.html#X0-noauthor_publichealthenglandcoronavirus-dashboard-api-python-sdk_nodate'>58</a>]
+couldn’t resolve a connection error with the API and raised an issue on their official GitHub repository[<a href='#X0-noauthor_publichealthenglandcoronavirus-dashboard-api-python-sdk_nodate'>58</a>]
 to ask about it, and I received a reply shortly afterwards that it was due to the high traffic and server
 limitations, especially in the South West England, but they were planning to expand the server
 capacity.
@@ -2625,7 +2625,7 @@ life and I will continue to make my contributions.
 <br><br><h2 class='likechapterHead'><a id='x1-850006.5'></a>References</h2>
 <dl class='thebibliography'><dt class='thebibliography' id='X0-noauthor_covid-19_2020'>
 [1]</dt><dd class='thebibliography' id='bib-1'>
-<p style="text-indent:0;"><a id='page.166'></a><a href='main.html' id='X0-'></a>“Covid-19 vaccine: First person receives Pfizer jab in UK”, en-GB, <span class='cmti-10x-x-109'>BBC News</span>, Dec. 2020.
+<p style="text-indent:0;"><a id='page.166'></a><a href='' id='X0-'></a>“Covid-19 vaccine: First person receives Pfizer jab in UK”, en-GB, <span class='cmti-10x-x-109'>BBC News</span>, Dec. 2020.
 [Online]. Available: <a href='https://www.bbc.com/news/uk-55227325' class='url'><span class='cmtt-10x-x-109'>https://www.bbc.com/news/uk-55227325</span></a> (visited on 04/30/2021).
 </p><br>
 </dd><dt class='thebibliography' id='X0-bjornstad_seirs_2020'>
