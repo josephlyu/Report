@@ -226,7 +226,7 @@ image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ im
 -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 /* (41+1+1)em * 10px = 430px */
-@media screen and (max-width: 430px) {
+@media (max-width: 430px) {
   body { font-size: 10px; margin:0 1em 0 1em; }
   .chapterHead { font-size: 24px; }
   .titleHead { font-size: 22px; }
@@ -235,7 +235,7 @@ image-rendering: -webkit-optimize-contrast; /*Webkit (non-standard naming) */ im
   .subsubsectionHead { font-size: 10px; }
 }
 /* (41+1+1)em * 16px = 688px */
-@media screen and (max-width: 688px) {
+@media (max-width: 688px) {
   body { font-size: 10px; }
   .chapterHead { font-size: 24px; }
   .titleHead { font-size: 22px; }
