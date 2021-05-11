@@ -296,13 +296,13 @@
             trend over time, thus reducing disturbances to predictions.
         </p>
         <p>
-            This was followed by more studies on COVID-19 prediction based on machine learning and deep learning methods. Chimmula et al. were among the first researchers to use LSTM models for COVID-19 prediction[
-            <a href="#X0-chimmula_time_2020">5</a>] . They built a univariate LSTM model using data up to 31 March 2020 and predicted the COVID-19 transmissions in Canada. In the short term, their model predicted that the COVID-19 cases
+            This was followed by more studies on COVID-19 prediction based on machine learning and deep learning methods. Chimmula et al. were among the first researchers to use LSTM models for COVID-19
+            prediction[<a href="#X0-chimmula_time_2020">5</a>] . They built a univariate LSTM model using data up to 31 March 2020 and predicted the COVID-19 transmissions in Canada. In the short term, their model predicted that the COVID-19 cases
             would reach a peak in mid-April 2020, which can be considered correct, but they also made a long-term prediction that the entire pandemic could end in June 2020, which was not quite as accurate.
         </p>
         <p>
-            At the same time, LSTM models can certainly be difficult to train, as Shastri et al. built a univariate LSTM model using confirmed COVID-19 cases and deaths data up to 1 September 2020 in India and provided 30-day predictions[
-            <a id="page.6"></a><a href="#X0-shastri_deep-lstm_2021">6</a>]. The study suggested that the model achieved 97.59% and 98.88% accuracy in cases and deaths predictions respectively, which was apparently unconvincing: cumulative
+            At the same time, LSTM models can certainly be difficult to train, as Shastri et al. built a univariate LSTM model using confirmed COVID-19 cases and deaths data up to 1 September 2020 in India and provided 30-day
+            predictions[<a id="page.6"></a><a href="#X0-shastri_deep-lstm_2021">6</a>]. The study suggested that the model achieved 97.59% and 98.88% accuracy in cases and deaths predictions respectively, which was apparently unconvincing: cumulative
             cases and deaths data were used in the figures presented for model predictions, the predicted values were not only inconsistent with the input data but were even declining; cumulative data should never decline. The resulting
             interpretation for the one-month forecast was also proven to be inaccurate. The most likely problem with this study is that the model was over-fitted and predictions on the training data were used to measure the model
             performance.
@@ -1655,8 +1655,8 @@
 
         <h4 class="subsectionHead"><span class="titlemark">2.4.2 </span> <a id="x1-140002.4.2"></a>LSTM</h4>
         <p>
-            Artificial Neural Networks (ANNs) can handle complex relationships, but they cannot capture historical dependencies in the data, and the performance of the models depends substantially on the features of the dataset[
-            <a id="page.34"></a><a href="#X0-parmezan_evaluation_2019">20</a>]. A type of ANN called Recurrent Neural Network (RNN) was proposed to solve problems involving sequential data. In RNN, the current state is predicted based not
+            Artificial Neural Networks (ANNs) can handle complex relationships, but they cannot capture historical dependencies in the data, and the performance of the models depends substantially on the features of the
+            dataset[<a id="page.34"></a><a href="#X0-parmezan_evaluation_2019">20</a>]. A type of ANN called Recurrent Neural Network (RNN) was proposed to solve problems involving sequential data. In RNN, the current state is predicted based not
             only on the current input values, but also on previous hidden state values. However, RNNs suffer from the problem of gradient vanishing and gradient exploding, resulting in RNNs not being able to learn long-term dependencies
             from the data and can only be used for short-term prediction[<a href="#X0-rizk_extreme_2019">21</a>].
         </p>
@@ -1991,13 +1991,13 @@
                 Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)[<a href="#X0-dong_interactive_2020">13</a>]. It contains data from 22 January 2020 to 20 April 2021.
             </li>
             <li id="x1-16006x3" class="enumerate">
-                <strong><span class="cmbx-10x-x-109">Government Stringency</span></strong> - Oxford COVID-19 Government Response Tracker (OxCGRT). This dataset is provided by the Blavatnik School of Government at the University of Oxford[
-                <a href="#X0-hale_global_2021">22</a>]. It considers school closures, workplace closures, cancellation of public events, assembly restrictions, public transport, stay-at-home orders, internal movement restrictions,
+                <strong><span class="cmbx-10x-x-109">Government Stringency</span></strong> - Oxford COVID-19 Government Response Tracker (OxCGRT). This dataset is provided by the Blavatnik School of Government at the University of
+                Oxford[<a href="#X0-hale_global_2021">22</a>]. It considers school closures, workplace closures, cancellation of public events, assembly restrictions, public transport, stay-at-home orders, internal movement restrictions,
                 international travel controls and public information campaigns to provide a score from 0 to 100 to measure the strictness of government responses. It contains data from 1 January 2020 to 19 April 2021.
             </li>
             <li id="x1-16008x4" class="enumerate">
-                <strong><span class="cmbx-10x-x-109">Vaccination</span></strong> - the proportion of the population who have received their first dose of COVID-19 vaccines. This dataset is provided by Public Health England[
-                <a href="#X0-noauthor_official_nodate">12</a>] and contains data from 10 January 2021 to 19 April 2021.
+                <strong><span class="cmbx-10x-x-109">Vaccination</span></strong> - the proportion of the population who have received their first dose of COVID-19 vaccines. This dataset is provided by Public Health
+                England[<a href="#X0-noauthor_official_nodate">12</a>] and contains data from 10 January 2021 to 19 April 2021.
             </li>
             <li id="x1-16010x5" class="enumerate">
                 <strong><span class="cmbx-10x-x-109">Hospital Admissions</span></strong> - the number of daily COVID-19 hospital admissions. This dataset is provided by Public Health England[<a href="#X0-noauthor_official_nodate">12</a>]
@@ -2008,8 +2008,8 @@
                 <a href="#X0-noauthor_official_nodate">12</a>] and contains data from 31 March 2020 to 19 April 2021.
             </li>
             <li id="x1-16014x7" class="enumerate">
-                <strong><span class="cmbx-10x-x-109">Ventilators</span></strong> - the daily number of COVID-19 occupied hospital beds with medical ventilators. This dataset is provided by Public Health England[
-                <a href="#X0-noauthor_official_nodate">12</a>] and contains data from 2 April 2020 to 19 April 2021.
+                <strong><span class="cmbx-10x-x-109">Ventilators</span></strong> - the daily number of COVID-19 occupied hospital beds with medical ventilators. This dataset is provided by Public Health
+                England[<a href="#X0-noauthor_official_nodate">12</a>] and contains data from 2 April 2020 to 19 April 2021.
             </li>
             <li id="x1-16016x8" class="enumerate">
                 <strong><span class="cmbx-10x-x-109">R0</span></strong> - the reproduction rate of COVID-19 infections in the UK. This dataset is provided by Francisco Arroyo et al[<a href="#X0-arroyo-marioli_tracking_2021">23</a>]. It
@@ -2329,8 +2329,8 @@
             <a href="#X0-kingma_adam_2014">27</a>].
         </p>
         <p>
-            Mean Square Error (MSE) is used as the loss function. MSE is the most commonly used regression loss function and is the sum of the squared distances between the actual values and the predicted values[
-            <a href="#X0-noauthor_mean_2021-2">28</a>], as shown in Equation <a href="#x1-24001r3">3.3</a>.
+            Mean Square Error (MSE) is used as the loss function. MSE is the most commonly used regression loss function and is the sum of the squared distances between the actual values and the predicted
+            values[<a href="#X0-noauthor_mean_2021-2">28</a>], as shown in Equation <a href="#x1-24001r3">3.3</a>.
         </p>
         <table class="equation">
             <tr>
@@ -2368,8 +2368,8 @@
         <p>
             One of the main challenges when working with deep learning models is how long to train them. Undertraining means that the model will underfit the training and testing data; however, overtraining means that the model will overfit
             the training dataset and perform poorly on the testing set[<a href="#X0-prechelt_early_1998">29</a>]. Underfitting can be addressed by improving hyperparameters and increasing training epochs, and overfitting needs to be
-            addressed by regularisation. Early stopping is one of the oldest and most widely used forms of neural network regularisation, and it can provide an effective and simple way to avoid overfitting[
-            <a href="#X0-goodfellow_deep_2016">30</a>, p. 247].
+            addressed by regularisation. Early stopping is one of the oldest and most widely used forms of neural network regularisation, and it can provide an effective and simple way to avoid
+            overfitting[<a href="#X0-goodfellow_deep_2016">30</a>, p. 247].
         </p>
         <p>In my approach, the loss function values on the training data are monitored and if the model performance does not improve within 10 epochs, the model will stop training and the best performing model will be returned.</p>
         <p></p>
@@ -2695,15 +2695,15 @@
 
         <h4 class="subsectionHead"><span class="titlemark">3.5.1 </span> <a id="x1-440003.5.1"></a>User Experience (UX)</h4>
         <p>
-            User Experience (UX) describes the user’s interaction and experience with a system[<a id="page.70"></a><a href="#X0-experience_definition_nodate">39</a>]. When designing the dashboard, I followed 5 UX principles[
-            <a href="#X0-noauthor_5_nodate">40</a>].
+            User Experience (UX) describes the user’s interaction and experience with a system[<a id="page.70"></a><a href="#X0-experience_definition_nodate">39</a>]. When designing the dashboard, I followed 5 UX
+            principles[<a href="#X0-noauthor_5_nodate">40</a>].
         </p>
         <p></p>
 
         <h5 class="subsubsectionHead"><span class="titlemark">3.5.1.1 </span> <a id="x1-450003.5.1.1"></a>Hierarchy</h5>
         <p>
-            The first hierarchy relates to the information architecture, i.e. how the content is organised throughout the site; the visual hierarchy is how the designer helps the user navigate more easily through a section or page[
-            <a href="#X0-noauthor_5_nodate">40</a>].
+            The first hierarchy relates to the information architecture, i.e. how the content is organised throughout the site; the visual hierarchy is how the designer helps the user navigate more easily through a section or
+            page[<a href="#X0-noauthor_5_nodate">40</a>].
         </p>
         <p>
             In my dashboard, there is a sidebar on the left hand side which contains the most basic and essential information, including the latest figures for the UK, last updated times, cases and deaths curves, it also has three buttons
@@ -4288,8 +4288,8 @@
         <p>In conclusion, this project has achieved its aims and objectives and I have proposed a roadmap for the future work to overcome its limitations. And I would also like to share some other thoughts.</p>
         <p>
             We are getting so used to the convenience offered by various predictive models and dashboards that we may not even realise how incredible these efforts are. I have had some conversations with the team behind the Public Health
-            England’s Developers API, which was one of my main data sources. At one point I couldn’t resolve a connection error with the API and raised an issue on their official GitHub repository[
-            <a href="#X0-noauthor_publichealthenglandcoronavirus-dashboard-api-python-sdk_nodate">58</a>] to ask about it, and I received a reply shortly afterwards that it was due to the high traffic and server limitations, especially in
+            England’s Developers API, which was one of my main data sources. At one point I couldn’t resolve a connection error with the API and raised an issue on their official GitHub
+            repository[<a href="#X0-noauthor_publichealthenglandcoronavirus-dashboard-api-python-sdk_nodate">58</a>] to ask about it, and I received a reply shortly afterwards that it was due to the high traffic and server limitations, especially in
             the South West England, but they were planning to expand the server capacity.
         </p>
         <p>
