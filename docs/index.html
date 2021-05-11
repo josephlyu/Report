@@ -2222,12 +2222,12 @@
                 <strong><span class="cmbx-10x-x-109">Differencing</span></strong>: Differencing can be used to remove temporal dependencies, including trends and seasonality. It removes the level changes in the time series to stabilise the
                 mean[<a href="#X0-hyndman_forecasting_2018">26</a>, p. 215]. Differencing is performed by subtracting the value of the previous time step from the value of the current time step, as shown in Equation
                 <a href="#x1-18003r1">3.1</a>.
+                <br>
+                <br>
                 <table class="equation">
                     <tr>
                         <td>
                             <a id="x1-18003r1"></a>
-
-                            <br>
                             <math display="block" class="equation" xmlns="https://www.w3.org/1998/Math/MathML">
                                 <mi mathvariant="italic">Differenced</mi> <mo form="prefix" fence="true"> (</mo><mrow><mi>t</mi></mrow><mo form="postfix" fence="true">)</mo> <mo class="MathClass-rel">=</mo>
                                 <mi mathvariant="italic">Original</mi> <mo form="prefix" fence="true"> (</mo><mrow><mi>t</mi></mrow><mo form="postfix" fence="true">)</mo> <mo class="MathClass-bin">−</mo>
@@ -2243,10 +2243,11 @@
                 normalisation process.
             </li>
         </ol>
+        <br>
         <table class="equation">
             <tr>
                 <td>
-                    <a id="x1-18006r2"></a> <br>
+                    <a id="x1-18006r2"></a>
                     <math display="block" class="equation" xmlns="https://www.w3.org/1998/Math/MathML">
                         <mi mathvariant="italic">Scaled</mi> <mo form="prefix" fence="true"> (</mo><mrow><mi>t</mi></mrow><mo form="postfix" fence="true">)</mo> <mo class="MathClass-rel">=</mo>
                         <mfrac>
@@ -2332,10 +2333,11 @@
             Mean Square Error (MSE) is used as the loss function. MSE is the most commonly used regression loss function and is the sum of the squared distances between the actual values and the predicted
             values[<a href="#X0-noauthor_mean_2021-2">28</a>], as shown in Equation <a href="#x1-24001r3">3.3</a>.
         </p>
+        <br>
         <table class="equation">
             <tr>
                 <td>
-                    <a id="x1-24001r3"></a> <br>
+                    <a id="x1-24001r3"></a>
                     <math display="block" class="equation" xmlns="https://www.w3.org/1998/Math/MathML">
                         <mi mathvariant="italic">MSE</mi> <mo class="MathClass-rel">=</mo>
                         <munderover accentunder="false" accent="false">
@@ -2562,10 +2564,11 @@
             In the actual time series forecasts, there is not enough information to tell the model to set thresholds for the predictions. In particular, the cases and deaths data for COVID-19 are always non-negative integers, but the model
             does not know this and may instead make negative predictions, so I performed prediction cleansing by converting all negative predictions to zero, as shown in Equation <a href="#x1-33001r10">3.10</a>.
         </p>
+        <br>
         <table class="equation">
             <tr>
                 <td>
-                    <a id="x1-33001r10"></a> <br>
+                    <a id="x1-33001r10"></a>
                     <math display="block" class="equation" xmlns="https://www.w3.org/1998/Math/MathML">
                         <mi mathvariant="italic">Prediction</mi> <mo class="MathClass-rel">=</mo> <mo form="prefix" fence="true"> {</mo>
                         <mrow>
@@ -3008,10 +3011,11 @@
             feature to be evaluated as the target model, performs the global evaluation process described in Section <a href="#x1-530003.6.1.2">3.6.1.2</a> and obtains the AMAE values respectively, and then performs the calculation shown in
             Equation <a href="#x1-54001r17">3.17</a>.
         </p>
+        <br>
         <table class="equation">
             <tr>
                 <td>
-                    <a id="x1-54001r17"></a> <br>
+                    <a id="x1-54001r17"></a>
                     <math display="block" class="equation" xmlns="https://www.w3.org/1998/Math/MathML">
                         <mi mathvariant="italic">CF</mi> <mo class="MathClass-rel">=</mo>
                         <mfrac>
@@ -3041,10 +3045,11 @@
             To further facilitate the evaluation of the different predictive models, a baseline model was implemented. This model takes the last observed input data as its predicted value, as shown in Equation
             <a href="#x1-55001r18">3.18</a>.
         </p>
+        <br>
         <table class="equation">
             <tr>
                 <td>
-                    <a id="x1-55001r18"></a> <br>
+                    <a id="x1-55001r18"></a>
                     <math display="block" class="equation" xmlns="https://www.w3.org/1998/Math/MathML">
                         <mi mathvariant="italic">Predicted</mi> <mo form="prefix" fence="true"> (</mo><mrow><mi>t</mi></mrow><mo form="postfix" fence="true">)</mo> <mo class="MathClass-rel">=</mo> <mi mathvariant="italic">Input</mi>
                         <mspace class="nbsp" width="0.33em"></mspace><mi mathvariant="italic">Data</mi> <mo form="prefix" fence="true"> [</mo><mrow><mo class="MathClass-bin">−</mo><mn>1</mn></mrow><mo form="postfix" fence="true">]</mo>
