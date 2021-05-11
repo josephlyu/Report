@@ -1119,18 +1119,11 @@ body {
 
 img {
     image-rendering: -moz-crisp-edges;
-    /* Firefox */
     image-rendering: -o-crisp-edges;
-    /* Opera */
     image-rendering: -webkit-optimize-contrast;
-    /*Webkit (non-standard naming) */
     image-rendering: crisp-edges;
     \ -ms-interpolation-mode: nearest-neighbor;
-    /* IE (non-standard property) */
 }
-
-
-/* (41+1+1)em * 10px = 430px */
 
 @media (max-width: 430px) {
     body {
@@ -1153,9 +1146,6 @@ img {
         font-size: 10px;
     }
 }
-
-
-/* (41+1+1)em * 16px = 688px */
 
 @media (max-width: 688px) {
     body {
