@@ -2,8 +2,6 @@
 
 Lyu, S., 2021. *COVID-19 (forecasting) Dashboard*. Bachelor's Thesis. University of Manchester.
 
-
-
 ##### BibTeX
 
 ```bibtex
