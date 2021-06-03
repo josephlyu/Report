@@ -4,7 +4,7 @@ Lyu, S., 2021. *COVID-19 (forecasting) Dashboard*. Bachelor's Thesis. University
 
 
 
-##### bibtex
+##### BibTeX
 
 ```bibtex
 @mastersthesis{Lyu2021,
