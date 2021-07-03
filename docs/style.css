@@ -1145,6 +1145,9 @@ img {
     .subsubsectionHead {
         font-size: 10px;
     }
+    .largetable {
+        font-size: 6px !important;
+    }
 }
 
 @media (max-width: 688px) {
@@ -1165,5 +1168,8 @@ img {
     }
     .subsubsectionHead {
         font-size: 10px;
+    }
+    .largetable {
+        font-size: 6px !important;
     }
 }
